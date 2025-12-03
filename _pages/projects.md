@@ -7,8 +7,6 @@ nav: true
 nav_order: 1
 ---
 
-## Personal Projects
-
 ### Financial Podcast Platform
 **Real-time AI podcast generation with WebSocket streaming**
 
@@ -47,7 +45,7 @@ Framework for privacy-preserving data analysis using Pandas with pointer-based a
 
 ---
 
-## Open Source Contributions
+<h2 style="text-align: center; font-weight: bold; margin: 40px 0 30px 0;">Open Source Contributions</h2>
 
 ### PySyft, OpenMined
 **Privacy-preserving machine learning framework**
