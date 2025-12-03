@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title:
 permalink: /projects/
 description: A collection of my software engineering projects.
 nav: true
