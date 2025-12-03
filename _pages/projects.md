@@ -7,7 +7,52 @@ nav: true
 nav_order: 2
 ---
 
-## Professional Projects
+### StrataLens AI
+**Equity research platform with agentic RAG pipeline** | [stratalens.ai](https://stratalens.ai)
+
+Built an equity research platform using FastAPI, React, PostgreSQL, Redis, and Logfire for observability. Implemented latency-optimized agentic RAG pipeline using Groq inference (OpenAI 20B OSS) and GPT-4.1 Nano with pgvector for vector retrieval across 10,000+ earnings calls (2022-2025). Building agentic RAG pipeline for SEC filings achieving ~85% accuracy on FinanceBench benchmark with LLM-as-judge evaluation. Developed text-to-SQL stock screener and market data analysis tool using DuckDB for natural language financial queries.
+
+**Technologies:** FastAPI, React, PostgreSQL, Redis, pgvector, Groq, GPT-4.1 Nano, DuckDB
+
+---
+
+### Financial Podcast Platform
+**Real-time AI podcast generation with WebSocket streaming**
+
+Built real-time AI podcast platform using OpenAI Whisper and GPT-4o with Celery workers for async audio generation. Developed React frontend with WebSocket streaming for live audio updates, deployed on AWS. Organically acquired 50+ users in early beta with portfolio-based personalized podcast generation on-demand. Implemented market data pipeline processing 9,000 tickers every 20 minutes using SERP API and Redis caching.
+
+**Technologies:** OpenAI Whisper, GPT-4o, Celery, React, WebSocket, AWS, Redis
+
+---
+
+### TheMarketCast.ai
+**SEC Form D filing analysis platform** | [themarketcast.ai](https://themarketcast.ai)
+
+Built platform parsing and analyzing SEC Form D filings daily, providing accessible insights into private capital formation trends across U.S. markets.
+
+**Technologies:** Python, SEC EDGAR API, Data Analysis
+
+---
+
+### Jobs Intelligence Scraper
+**Large-scale job posting data extraction**
+
+Built large-scale web scraper using Playwright and Meta-Llama-3-70B to extract 100,000+ job postings from high-growth startups and S&P 500 companies with structured data extraction and analysis capabilities.
+
+**Technologies:** Playwright, Meta-Llama-3-70B, Python, Web Scraping
+
+---
+
+### GreyNSights
+**Framework for privacy-preserving data analysis with differential privacy**
+
+Framework for privacy-preserving data analysis using Pandas with pointer-based architecture for flexible EDA. Implemented differential privacy for individual row protection and federated analytics using secure multi-party computation.
+
+**Technologies:** Python, Pandas, Differential Privacy, Secure Multi-Party Computation
+
+**GitHub:** [kamathhrishi/GreyNSights](https://github.com/kamathhrishi/GreyNSights)
+
+---
 
 ### SyMPC
 **Multi-party computation library for privacy-preserving neural network training in PyTorch**
@@ -15,7 +60,7 @@ nav_order: 2
 Core contributor to SyMPC (2021-2022), a library enabling secure multi-party computation for training neural networks in PyTorch.
 
 **Key Contributions:**
-- **FALCON Implementation**: Implemented core operations from the FALCON paper for secure computation
+- **FALCON Implementation**: Implemented core operations from the FALCON paper - first Python implementation of honest-majority maliciously secure framework for private deep learning
 - **Automatic Differentiation**: Enhanced the automatic differentiation system for secure gradient computation
 - **Replicated Secret Sharing**: Developed tensor primitives using Replicated Secret Sharing protocols
 
@@ -28,7 +73,7 @@ Core contributor to SyMPC (2021-2022), a library enabling secure multi-party com
 ### PySyft
 **Framework for privacy-preserving deep learning with federated learning and differential privacy**
 
-Core contributor to PySyft (2018-2019), a framework enabling privacy-preserving deep learning with support for both PyTorch and TensorFlow.
+Core contributor to PySyft (2019-2022), a framework enabling privacy-preserving deep learning with support for both PyTorch and TensorFlow. Performed code reviews and planned SyMPC library roadmap.
 
 **Key Contributions:**
 - **Federated Learning**: Created practical use cases for federated learning with word embeddings
@@ -55,25 +100,6 @@ Contributor to Deepgaze, a computer vision library designed for human-computer i
 **Technologies:** Python, Computer Vision, OpenCV
 
 **GitHub:** [mpatacchiola/deepgaze](https://github.com/mpatacchiola/deepgaze)
-
----
-
-## Personal Projects
-
-### GreyNSights
-**Framework for privacy-preserving data analysis with differential privacy**
-
-A framework for privacy-preserving data analysis that enables remote dataset queries while maintaining privacy through differential privacy.
-
-**Features:**
-- **Privacy-Preserving Queries**: Query remote datasets without exposing individual records
-- **Pandas-Compatible API**: Familiar syntax for data scientists using pandas
-- **Multi-Party Statistics**: Compute aggregate statistics across multiple parties
-- **Differential Privacy**: Built-in differential privacy mechanisms
-
-**Technologies:** Python, Pandas, Differential Privacy
-
-**GitHub:** [kamathhrishi/GreyNSights](https://github.com/kamathhrishi/GreyNSights)
 
 ---
 
