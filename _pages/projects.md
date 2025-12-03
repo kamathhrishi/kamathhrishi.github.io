@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: A collection of my software engineering projects.
 nav: true
-nav_order: 2
+nav_order: 1
 ---
 
 ### StrataLens AI
