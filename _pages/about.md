@@ -1,6 +1,6 @@
 ---
 layout: page
-title: about
+title:
 permalink: /
 ---
 
@@ -32,6 +32,7 @@ Grew up playing Project IGI. Levelling up to play Project AGI.
 <hr style="margin: 40px 0; border: 0; border-top: 1px solid #ddd;">
 
 <p style="text-align: center; margin-top: 30px;">
+<a href="https://www.linkedin.com/in/kamathhrishi/" target="_blank" style="margin: 0 15px;">LinkedIn</a> •
 <a href="https://github.com/kamathhrishi" target="_blank" style="margin: 0 15px;">GitHub</a> •
 <a href="https://twitter.com/kamathhrishi" target="_blank" style="margin: 0 15px;">Twitter</a> •
 <a href="mailto:kamathhrishi@gmail.com" style="margin: 0 15px;">Email</a>
