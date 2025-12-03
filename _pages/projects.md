@@ -7,8 +7,6 @@ nav: true
 nav_order: 1
 ---
 
-## Personal Projects
-
 ### Financial Podcast Platform
 **Real-time AI podcast generation with WebSocket streaming**
 
@@ -46,8 +44,6 @@ Framework for privacy-preserving data analysis using Pandas with pointer-based a
 **GitHub:** [kamathhrishi/GreyNSights](https://github.com/kamathhrishi/GreyNSights)
 
 ---
-
-## Open Source Contributions
 
 ### PySyft, OpenMined
 **Privacy-preserving machine learning framework**
