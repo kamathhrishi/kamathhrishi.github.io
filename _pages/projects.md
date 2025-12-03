@@ -7,6 +7,8 @@ nav: true
 nav_order: 1
 ---
 
+<h2 style="text-align: center; font-weight: bold; margin: 40px 0 30px 0;">Personal Projects</h2>
+
 ### Financial Podcast Platform
 **Real-time AI podcast generation with WebSocket streaming**
 
@@ -17,11 +19,12 @@ Built real-time AI podcast platform using OpenAI Whisper and GPT-4o with Celery 
 ---
 
 ### TheMarketCast.ai
-**SEC Form D filing analysis platform** | [themarketcast.ai](https://themarketcast.ai)
+**SEC Form D filing analysis platform**
 
 Built platform parsing and analyzing SEC Form D filings daily, providing accessible insights into private capital formation trends across U.S. markets.
 
 **Technologies:** Python, SEC EDGAR API, Data Analysis
+**Live:** [themarketcast.ai](https://themarketcast.ai)
 
 ---
 
@@ -40,8 +43,7 @@ Built large-scale web scraper using Playwright and Meta-Llama-3-70B to extract 1
 Framework for privacy-preserving data analysis using Pandas with pointer-based architecture for flexible EDA. Implemented differential privacy for individual row protection and federated analytics using secure multi-party computation.
 
 **Technologies:** Python, Pandas, Differential Privacy, Secure Multi-Party Computation
-
-**GitHub:** [kamathhrishi/GreyNSights](https://github.com/kamathhrishi/GreyNSights)
+**Code:** [github.com/kamathhrishi/GreyNSights](https://github.com/kamathhrishi/GreyNSights)
 
 ---
 
@@ -58,5 +60,4 @@ Core Contributor (2019-2022). Performed code reviews and planned SyMPC library r
 - **Framework Development**: Contributed to core privacy-preserving ML infrastructure
 
 **Technologies:** PyTorch, TensorFlow, Secure Multi-Party Computation, Differential Privacy
-
-**GitHub:** [OpenMined/PySyft](https://github.com/OpenMined/PySyft) | [OpenMined/SyMPC](https://github.com/OpenMined/SyMPC)
+**Code:** [github.com/OpenMined/PySyft](https://github.com/OpenMined/PySyft) • [github.com/OpenMined/SyMPC](https://github.com/OpenMined/SyMPC)
