@@ -45,6 +45,8 @@ Framework for privacy-preserving data analysis using Pandas with pointer-based a
 
 ---
 
+<h2 style="text-align: center; font-weight: bold; margin: 40px 0 30px 0;">Open Source Contributions</h2>
+
 ### PySyft, OpenMined
 **Privacy-preserving machine learning framework**
 
