@@ -7,8 +7,6 @@ nav: true
 nav_order: 2
 ---
 
-## Professional Projects
-
 ### SyMPC
 **Multi-party computation library for privacy-preserving neural network training in PyTorch**
 
@@ -57,8 +55,6 @@ Contributor to Deepgaze, a computer vision library designed for human-computer i
 **GitHub:** [mpatacchiola/deepgaze](https://github.com/mpatacchiola/deepgaze)
 
 ---
-
-## Personal Projects
 
 ### GreyNSights
 **Framework for privacy-preserving data analysis with differential privacy**
