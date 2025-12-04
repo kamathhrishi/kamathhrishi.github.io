@@ -4,6 +4,7 @@ permalink: /blog/
 title: blog
 nav: true
 nav_order: 2
+hide_title: true
 ---
 
 ## Writing on Tech, AI & Markets

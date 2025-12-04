@@ -4,6 +4,7 @@ title: projects
 permalink: /projects/
 nav: true
 nav_order: 1
+hide_title: true
 ---
 
 <h2 style="text-align: center; font-weight: bold; margin: 40px 0 30px 0;">Personal Projects</h2>
