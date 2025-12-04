@@ -9,6 +9,13 @@ hide_title: true
 
 <h2 style="text-align: center; font-weight: bold; margin: 40px 0 30px 0;">Personal Projects</h2>
 
+### StrataLens AI
+Link: [stratalens.ai](https://stratalens.ai)
+
+Built equity research platform using **FastAPI**, **React**, **PostgreSQL**, **Redis**, and **Logfire** for observability. Implemented latency-optimized agentic RAG pipeline using **Groq** inference (**OpenAI 20B OSS**) and **GPT-4.1 Nano** with **pgvector** for vector retrieval across 10,000+ earnings calls (2022-2025). Building agentic RAG pipeline for SEC filings achieving ~85% accuracy on FinanceBench benchmark with LLM-as-judge evaluation. Developed text-to-SQL stock screener and market data analysis tool using **DuckDB** for natural language financial queries.
+
+---
+
 ### Financial Podcast Platform
 
 Built real-time AI podcast platform using **OpenAI Whisper** and **GPT-4o** with **Celery** workers for async audio generation. Developed **React** frontend with **WebSocket** streaming for live audio updates, deployed on **AWS**. Organically acquired 50+ users in early beta with portfolio-based personalized podcast generation on-demand. Implemented market data pipeline processing 9,000 tickers every 20 minutes using **SERP API** and **Redis** caching.
