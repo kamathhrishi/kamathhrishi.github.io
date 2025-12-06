@@ -14,7 +14,7 @@ Hello, I am Hrishikesh Kamath. Software engineer with experience building full-s
 </p>
 
 <p style="text-align: justify; line-height: 1.8; margin-bottom: 25px;">
-I've been an active investor in Indian capital markets for five years, which sparked my passion for building tools that go beyond surface-level data summaries. I was building <strong>StrataLens AI</strong> as a startup—an equity research platform with agentic RAG pipelines for earnings calls and SEC filings—but recently decided not to continue it as a product. I'm still working on it as a project alongside <strong>themarketcast.ai</strong>, a platform for analyzing private capital formation trends. My work spans language models, reinforcement learning, computer vision, and MLOps—particularly where they intersect with finance, security, and infrastructure.
+I've been an active investor in Indian capital markets for five years, which sparked my passion for building tools that go beyond surface-level data summaries. Most recently, I built <strong>StrataLens AI</strong>, an equity research platform with agentic RAG pipelines for earnings calls and SEC filings. While I decided not to continue it as a product, I'm still actively working on it as a project alongside <strong>themarketcast.ai</strong>, a platform for analyzing private capital formation trends. My work spans language models, reinforcement learning, computer vision, and MLOps—particularly where they intersect with finance, security, and infrastructure.
 </p>
 
 <p style="text-align: justify; line-height: 1.8; margin-bottom: 35px;">
