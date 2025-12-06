@@ -6,11 +6,8 @@ permalink: /
 
 <div style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
 
-<h1 style="text-align: center; margin-bottom: 10px;">Hrishikesh Kamath</h1>
-<h3 style="text-align: center; color: #828282; font-weight: 400; margin-bottom: 40px;">Software Engineer & ML Researcher</h3>
-
 <p style="text-align: justify; line-height: 1.8; margin-bottom: 25px;">
-Hello, I am Hrishikesh Kamath. Software engineer with experience building full-stack applications and AI agents. Previously core contributor to <strong>PySyft</strong>, one of the most widely used privacy-preserving machine learning libraries, and founding engineer at an Accel-backed startup in India. I recently completed my Master's in Electrical and Computer Engineering at the <strong>University of Delaware</strong>, where I worked on research in LLM code generation and hardware security (logic locking). Before that, I spent 2.5 years as a <strong>Software Engineer at Ederlabs</strong>, building backend systems and CI/CD pipelines.
+Hello, I'm Hrishikesh. Software engineer with experience building full-stack applications and AI agents. Previously core contributor to <strong>PySyft</strong>, one of the most widely used privacy-preserving machine learning libraries, and founding engineer at an Accel-backed startup in India. I recently completed my Master's in Electrical and Computer Engineering at the <strong>University of Delaware</strong>, where I worked on research in LLM code generation and hardware security (logic locking). Before that, I spent 2.5 years as a <strong>Software Engineer at Ederlabs</strong>, building backend systems and CI/CD pipelines.
 </p>
 
 <p style="text-align: justify; line-height: 1.8; margin-bottom: 25px;">
