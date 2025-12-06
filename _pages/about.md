@@ -10,11 +10,15 @@ permalink: /
 <h3 style="text-align: center; color: #828282; font-weight: 400; margin-bottom: 40px;">Software Engineer & ML Researcher</h3>
 
 <p style="text-align: justify; line-height: 1.8; margin-bottom: 25px;">
-I'm currently wrapping up my Master's in Electrical and Computer Engineering at the <strong>University of Delaware</strong> (graduating May 2025), where I've been diving deep into machine learning, privacy-preserving systems, and MLOps. Most recently, I worked as a <strong>Research Engineer at Mbd.xyz</strong> deploying large language models and building recommendation systems. Before that, I spent 2.5 years as a <strong>Software Engineer at Ederlabs</strong>, where I built backend systems and CI/CD pipelines. I'm also a core contributor to <strong>OpenMined's PySyft and SyMPC projects</strong>, working on privacy-preserving machine learning frameworks.
+Hello, I am Hrishikesh Kamath. Software engineer with experience building full-stack applications and AI agents. Previously core contributor to <strong>PySyft</strong>, one of the most widely used privacy-preserving machine learning libraries, and founding engineer at an Accel-backed startup in India. I recently completed my Master's in Electrical and Computer Engineering at the <strong>University of Delaware</strong>, where I worked on research in LLM code generation and hardware security (logic locking). Before that, I spent 2.5 years as a <strong>Software Engineer at Ederlabs</strong>, building backend systems and CI/CD pipelines.
+</p>
+
+<p style="text-align: justify; line-height: 1.8; margin-bottom: 25px;">
+I've been an active investor in Indian capital markets for five years, which sparked my passion for building tools that go beyond surface-level data summaries. I was building <strong>StrataLens AI</strong> as a startup—an equity research platform with agentic RAG pipelines for earnings calls and SEC filings—but recently decided not to continue it as a product. I'm still working on it as a project alongside <strong>themarketcast.ai</strong>, a platform for analyzing private capital formation trends. My work spans language models, reinforcement learning, computer vision, and MLOps—particularly where they intersect with finance, security, and infrastructure.
 </p>
 
 <p style="text-align: justify; line-height: 1.8; margin-bottom: 35px;">
-I've been an active investor in Indian capital markets for five years, which sparked my passion for building tools that go beyond surface-level data summaries. I founded <strong>StrataLens AI</strong>, an equity research platform with agentic RAG pipelines for earnings calls and SEC filings, and built <strong>themarketcast.ai</strong> to make private capital formation trends more accessible. My work spans language models, reinforcement learning, computer vision, and MLOps—particularly where they intersect with finance, security, and infrastructure. I'm passionate about systems that combine rigorous engineering with practical applications that provide actionable insights.
+<strong>Open to engineering roles at high-growth companies in San Francisco and New York.</strong>
 </p>
 
 <p style="text-align: center; font-style: italic; margin-bottom: 30px; color: #666;">
