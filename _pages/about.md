@@ -7,7 +7,9 @@ permalink: /
 <div style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
 
 <p style="text-align: justify; line-height: 1.8; margin-bottom: 25px;">
-Hello, I'm Hrishikesh. Software engineer with experience building full-stack applications and AI agents. Most recently, I built <strong><a href="https://stratalens.ai" target="_blank">StrataLens AI</a></strong>, an equity research platform for financial analysts. After conducting customer discovery with financial analysts and acquiring initial users, I'm now seeking engineering roles at high-growth companies rather than continuing as a solo founder. Previously, I was a core contributor to <strong>PySyft</strong>, one of the most widely used privacy-preserving machine learning libraries, and founding engineer at an Accel-backed startup in India. I recently completed my Master's in Electrical and Computer Engineering at the <strong>University of Delaware</strong> with research in LLM code generation and hardware security.
+Hello, I'm Hrishikesh. Software engineer with experience building full-stack applications and AI agents. Most recently, I built <strong><a href="https://stratalens.ai" target="_blank">StrataLens AI</a></strong>, an equity research platform for financial analysts. After conducting customer discovery with financial analysts and acquiring initial users, I'm now seeking engineering roles at high-growth companies rather than continuing as a solo founder. </p>
+
+<p style="text-align: justify; line-height: 1.8; margin-bottom: 25px;">Previously, I was a core contributor to <strong>PySyft</strong>, one of the most widely used privacy-preserving machine learning libraries, and founding engineer at an Accel-backed startup in India. I recently completed my Master's in Electrical and Computer Engineering at the <strong>University of Delaware</strong> with research in LLM code generation and hardware security.
 </p>
 
 <p style="text-align: justify; line-height: 1.8; margin-bottom: 25px;">
