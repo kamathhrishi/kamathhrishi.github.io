@@ -9,6 +9,10 @@ Hello, I'm Hrishikesh. Software engineer based out of San Fransisco with experie
 
 <p style="text-align: justify; line-height: 1.8; margin-bottom: 25px;">Previously, I was a core contributor to <a href="https://github.com/OpenMined/PySyft"><strong>PySyft</strong></a>, one of the most widely used privacy-preserving machine learning libraries, and founding engineer at an Accel-backed startup in India. I recently completed my Master's in Electrical and Computer Engineering at the <strong>University of Delaware</strong> with research in LLM code generation and hardware security.
 </p>
+
+<p style="text-align: justify; line-height: 1.8; margin-bottom: 25px;">
+On the side, I'm working on <a href="https://kamathhrishi.github.io/sourcemapr/"><strong>SourceMapR</strong></a>—one line of code to add observability to your RAG pipelines.</p>
+
 <p style="text-align: justify; line-height: 1.8; margin-bottom: 25px;">
 I've been an active investor and trader in stock markets for 5–6 years, which sparked my interest in building tools for financial markets. I've experimented with various styles such as value, growth, and a blend of technical and fundamental analysis.
 </p>
