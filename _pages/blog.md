@@ -13,6 +13,13 @@ I write about financial markets, tech, and AI on [Substack](https://kamathhrishi
 
 ---
 
+### [Building Agentic Retrieval for Financial Analysis](https://kamathhrishi.substack.com/p/building-agentic-rag-for-financial)
+*January 2026*
+
+From ~50% to 85% on FinanceBench. Exploring RAG pipeline optimization for SEC 10-K filing analysis using agentic approaches and hierarchical document structuring.
+
+---
+
 ### [When to RAG, When to Go Agentic: UX Patterns for AI Response Modes](https://kamathhrishi.substack.com/p/when-to-rag-when-to-go-agentic-ux)
 *October 2025*
 
@@ -20,24 +27,17 @@ Exploring UX patterns for different AI response modes - when to use RAG for spee
 
 ---
 
+### [Why Alpha Lies in an Open Source Market Terminal](https://kamathhrishi.substack.com/p/why-alpha-lies-in-a-custom-version)
+*August 2025*
+
+Examining customizable dashboards and how proprietary data sources create competitive advantages in financial markets.
+
+---
+
 ### [Why Your AI Search is Barely Scratching the Surface](https://kamathhrishi.substack.com/p/why-your-ai-search-is-barely-scratching)
 *August 2025*
 
 And why ChatGPT can't give you a complete spreadsheet of competitors, employees, or even jobs.
-
----
-
-### [Why Alpha Lies in Open Source Market Terminal](https://kamathhrishi.substack.com/p/why-alpha-lies-in-open-source-market)
-*August 2025*
-
-Exploring customizable financial dashboards and alternative data sources for finding market edge.
-
----
-
-### [RAG is Never Dead](https://kamathhrishi.substack.com/p/rag-is-never-dead)
-*August 2025*
-
-Or how long context LLMs don't kill retrieval - why retrieval-augmented generation remains essential.
 
 ---
 
