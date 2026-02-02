@@ -12,7 +12,7 @@ hide_title: true
 ### StrataLens AI
 Link: [stratalens.ai](https://stratalens.ai)
 
-Built equity research platform using **FastAPI**, **React**, **TypeScript**, **PostgreSQL**, **Redis**, and **Logfire** for observability. Developed latency-optimized agentic RAG system using **Qwen3-235B** that synthesizes earnings calls, SEC filings, and real-time news via **Tavily** to answer complex financial queries. Built SEC filings RAG pipeline achieving ~85% accuracy on FinanceBench benchmark with LLM-as-judge evaluation. Developed text-to-SQL stock screener and market data analysis tool using **DuckDB** for natural language financial queries.
+Built equity research platform using **FastAPI**, **React**, **TypeScript**, **PostgreSQL**, **Redis**, and **Logfire** for observability. Developed latency-optimized agentic RAG system using **Qwen3-235B** that synthesizes earnings calls, SEC filings, and real-time news via **Tavily** to answer complex financial queries. Built SEC filings RAG pipeline achieving ~91% accuracy on FinanceBench benchmark with LLM-as-judge evaluation. Developed text-to-SQL stock screener and market data analysis tool using **DuckDB** for natural language financial queries.
 
 ---
 
