@@ -16,7 +16,7 @@ I write about financial markets, tech, and AI on [Substack](https://kamathhrishi
 ### [Building Agentic Retrieval for Financial Analysis](https://kamathhrishi.substack.com/p/building-agentic-rag-for-financial)
 *January 2026*
 
-From ~50% to 85% on FinanceBench. Exploring RAG pipeline optimization for SEC 10-K filing analysis using agentic approaches and hierarchical document structuring.
+From ~50% to 91% on FinanceBench. Exploring RAG pipeline optimization for SEC 10-K filing analysis using agentic approaches and hierarchical document structuring.
 
 ---
 
