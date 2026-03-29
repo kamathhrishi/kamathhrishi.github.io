@@ -193,7 +193,7 @@ hide_title: true
 <div class="project-card">
   <div class="project-left">
     <p class="project-title">Financial Podcast Platform</p>
-    <span class="project-year">2024</span>
+    <span class="project-year">2025</span>
     <p class="project-tagline">50+ early beta users, personalized portfolio podcasts on-demand</p>
   </div>
   <div class="project-right">
@@ -218,7 +218,7 @@ hide_title: true
     <a class="project-link" href="https://github.com/kamathhrishi/sourcemapr" target="_blank">↗ GitHub</a>
   </div>
   <div class="project-right">
-    <p class="project-desc">Drop-in observability library for <strong>RAG pipelines</strong>. Traces <strong>retrieval quality, latency, and relevance</strong> with minimal instrumentation — designed so engineers can monitor and debug RAG systems without changing their existing pipeline code. Provides observability from the <strong>source documents</strong> with citations to detect <strong>broken chunking, incorrect parsing</strong>, and other ingestion-level failures that are otherwise invisible at query time.</p>
+    <p class="project-desc">Drop-in observability library for <strong>RAG pipelines</strong>. Traces <strong>retrieval quality, latency, and relevance</strong> with minimal instrumentation, designed so engineers can monitor and debug RAG systems without changing their existing pipeline code. Provides observability from the <strong>source documents</strong> with citations to detect <strong>broken chunking, incorrect parsing</strong>, and other ingestion-level failures that are otherwise invisible at query time.</p>
     <div class="project-tags">
       <span class="tag">Python</span>
       <span class="tag">RAG</span>
@@ -237,13 +237,13 @@ hide_title: true
 
 <div class="project-card">
   <div class="project-left">
-    <p class="project-title">PySyft — OpenMined</p>
+    <p class="project-title">PySyft, OpenMined</p>
     <span class="project-year">2019–2022</span>
     <p class="project-tagline">Core contributor to one of the most widely used privacy-preserving ML libraries</p>
     <a class="project-link" href="https://github.com/OpenMined/PySyft" target="_blank">↗ GitHub</a>
   </div>
   <div class="project-right">
-    <p class="project-desc">Implemented <strong>FALCON protocol</strong> operations — the <strong>first Python implementation</strong> of an honest-majority maliciously secure framework for private deep learning. Planned the <strong>SyMPC library</strong> roadmap and performed code reviews for the secure multi-party computation library. Contributed to core privacy-preserving ML infrastructure using <strong>PyTorch</strong>, <strong>TensorFlow</strong>, and <strong>differential privacy</strong>.</p>
+    <p class="project-desc">Implemented <strong>FALCON protocol</strong> operations, the <strong>first Python implementation</strong> of an honest-majority maliciously secure framework for private deep learning. Planned the <strong>SyMPC library</strong> roadmap and performed code reviews for the secure multi-party computation library. Contributed to core privacy-preserving ML infrastructure using <strong>PyTorch</strong>, <strong>TensorFlow</strong>, and <strong>differential privacy</strong>.</p>
     <div class="project-tags">
       <span class="tag">Python</span>
       <span class="tag">PyTorch</span>
