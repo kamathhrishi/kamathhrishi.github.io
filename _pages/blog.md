@@ -13,6 +13,13 @@ I write about financial markets, tech, and AI on [Substack](https://kamathhrishi
 
 ---
 
+### [Building a Web Search Engine, Part 1: Crawling](https://kamathhrishi.substack.com/p/building-a-web-search-engine-1-crawling)
+*March 2026*
+
+Or how I'm definitely not trying to build the next Google. Walking through building fault-tolerant distributed crawlers in Rust with politeness policies, Redis queue coordination, and storing 10M+ pages in AWS S3.
+
+---
+
 ### [Building Agentic Retrieval for Financial Analysis](https://kamathhrishi.substack.com/p/building-agentic-rag-for-financial)
 *January 2026*
 
@@ -38,6 +45,13 @@ Examining customizable dashboards and how proprietary data sources create compet
 *August 2025*
 
 And why ChatGPT can't give you a complete spreadsheet of competitors, employees, or even jobs.
+
+---
+
+### [RAG is Never Dead](https://kamathhrishi.substack.com/p/rag-is-never-dead)
+*August 2025*
+
+Or how long-context LLMs don't kill retrieval. Making the case for why RAG remains essential even as context windows grow.
 
 ---
 

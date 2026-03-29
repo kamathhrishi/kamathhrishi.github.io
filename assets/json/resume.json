@@ -1,200 +1,207 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Hrishikesh Kamath",
+    "label": "Software Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "kamathhrishi@gmail.com",
+    "phone": "",
+    "url": "https://kamathhrishi.github.io",
+    "summary": "Software engineer based in San Francisco with experience building full-stack applications and AI agents.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
       "city": "San Francisco",
       "countryCode": "US",
       "region": "California"
     },
     "profiles": [
       {
+        "network": "GitHub",
+        "username": "kamathhrishi",
+        "url": "https://github.com/kamathhrishi"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "kamathhrishi",
+        "url": "https://www.linkedin.com/in/kamathhrishi/"
+      },
+      {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "kamathhrishi",
+        "url": "https://twitter.com/kamathhrishi"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "StrataLens AI",
+      "position": "Founder",
+      "url": "https://www.stratalens.ai",
+      "startDate": "2025-01-01",
+      "endDate": "2025-11-01",
+      "summary": "Built equity research platform for financial analysts.",
+      "highlights": [
+        "Conducted customer discovery with analysts at private equity and asset management companies",
+        "Built equity research agent synthesizing earnings calls, SEC filings, and real-time news to answer complex financial queries",
+        "Developed SEC filings sub-agent achieving 91% accuracy on FinanceBench benchmark with latency-optimized RAG pipeline",
+        "Built text-to-SQL stock screener using DuckDB for natural language financial queries",
+        "Tech stack: Python, FastAPI, PostgreSQL, Redis, TypeScript, React, Logfire, Langchain"
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Mbd.xyz",
+      "position": "Summer Research Engineer",
+      "startDate": "2024-06-01",
+      "endDate": "2024-08-01",
+      "summary": "Built data pipelines and ML systems for Community Notes analysis.",
+      "highlights": [
+        "Built end-to-end data pipeline: daily ingestion via Selenium, transformation with AWS Glue, and analytics on 74M historical Community Notes using AWS Athena, reducing dashboard compute time by 30%",
+        "Built topic clustering with transformer embeddings to surface misinformation patterns across multilingual Community Notes"
+      ]
+    },
+    {
+      "name": "Ederlabs",
+      "position": "Founding Software Engineer",
+      "startDate": "2020-10-01",
+      "endDate": "2023-06-01",
+      "summary": "Founding engineer at Accel-backed privacy-focused data startup in Bangalore, India.",
+      "highlights": [
+        "Built backend for privacy-focused data sandbox using Python, FastAPI, Celery, PostgreSQL, and AWS Nitro Enclaves",
+        "Translated customer requirements into technical specifications and delivered tailored solutions",
+        "Developed data ingestion pipelines with Airbyte integrations and automated PII detection/redaction tooling",
+        "Designed and deployed CI/CD pipelines using Docker, GitLab CI/CD, Kubernetes and Terraform on AWS"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "University of Delaware",
+      "location": "Newark, DE",
+      "url": "https://www.udel.edu/",
+      "area": "Electrical & Computer Engineering",
+      "studyType": "Master of Science",
+      "startDate": "2023-08-01",
+      "endDate": "2025-05-01",
+      "score": "3.7/4.0",
+      "courses": [
+        "ML techniques for hardware security",
+        "LLM applications for Verilog code generation"
+      ]
+    },
+    {
+      "institution": "RV College of Engineering",
+      "location": "Bangalore, India",
+      "area": "Electrical & Electronics Engineering",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2016-08-01",
+      "endDate": "2020-12-01"
     }
   ],
-  "awards": [
+  "volunteer": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "organization": "PySyft, OpenMined",
+      "position": "Core Contributor",
+      "url": "https://github.com/OpenMined/PySyft",
+      "startDate": "2019-01-01",
+      "endDate": "2022-01-01",
+      "summary": "Core contributor to one of the most widely used privacy-preserving machine learning libraries.",
+      "highlights": [
+        "Performed code reviews and planned SyMPC library roadmap for privacy-preserving ML framework",
+        "Implemented FALCON protocol operations - first Python implementation of honest-majority maliciously secure framework for private deep learning"
+      ]
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Languages",
+      "level": "Expert",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "Rust", "TypeScript", "JavaScript", "SQL"]
+    },
+    {
+      "name": "Frameworks & Tools",
+      "level": "Expert",
+      "icon": "fa-solid fa-wrench",
+      "keywords": ["FastAPI", "React", "Langchain", "Celery", "PostgreSQL", "Redis", "Docker", "Kubernetes", "Terraform", "AWS"]
+    },
+    {
+      "name": "AI & ML",
+      "level": "Expert",
+      "icon": "fa-solid fa-robot",
+      "keywords": ["RAG pipelines", "LLM agents", "OpenAI", "Transformer embeddings", "Privacy-preserving ML"]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "English",
+      "fluency": "Fluent",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Kannada",
+      "fluency": "Native speaker",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Stock Markets",
+      "icon": "fa-solid fa-chart-line",
+      "keywords": ["Value investing", "Growth investing", "Technical analysis", "Fundamental analysis"]
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Distributed Systems",
+      "icon": "fa-solid fa-server",
+      "keywords": ["Web crawlers", "Search engines", "Data pipelines"]
     }
   ],
+  "references": [],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Web Search Engine",
+      "summary": "Fault-tolerant distributed web crawler in Rust storing 10M+ pages with full-text search via Tantivy and BM25 ranking.",
+      "highlights": [
+        "Built distributed web crawlers in Rust across 5 instances with politeness policies and Redis queue coordination",
+        "Stored 10M+ tech-focused pages (200GB) in AWS S3 with metadata in PostgreSQL, provisioned via Terraform",
+        "Built full-text search using Tantivy inverted index with BM25 ranking"
+      ],
+      "startDate": "2026-01-01",
+      "endDate": "2026-01-01"
+    },
+    {
+      "name": "TheMarketCast.ai",
+      "summary": "Platform for parsing and analyzing SEC Form D filings with 3,000+ organic weekly users.",
+      "highlights": [
+        "Attracts 3,000+ organic weekly users via SEO/GEO optimization",
+        "Real-time tracking of 450,000+ filings",
+        "Stack: Python, PostgreSQL, Redis, PostHog; enriched with Exa"
+      ],
+      "startDate": "2025-01-01",
+      "endDate": "2025-01-01",
+      "url": "https://themarketcast.ai"
+    },
+    {
+      "name": "Financial Podcast Platform",
+      "summary": "Real-time AI podcast platform with portfolio-based personalized generation.",
+      "highlights": [
+        "Built using OpenAI Whisper and GPT-4o with Celery workers for async audio generation",
+        "React frontend with WebSocket streaming for live audio updates, deployed on AWS",
+        "Organically acquired 50+ users in early beta",
+        "Market data pipeline processing 9,000 tickers every 20 minutes"
+      ],
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-01"
+    },
+    {
+      "name": "GreyNSights",
+      "summary": "Framework for privacy-preserving data analysis using Pandas with differential privacy and secure multi-party computation.",
+      "highlights": [
+        "Pointer-based architecture for flexible EDA",
+        "Differential privacy for individual row protection",
+        "Federated analytics using secure multi-party computation"
+      ],
+      "url": "https://github.com/kamathhrishi/GreyNSights"
     }
   ]
 }
