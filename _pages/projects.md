@@ -191,7 +191,7 @@ hide_title: true
     <a class="project-link" href="https://communitynoted-production.up.railway.app/" target="_blank">↗ Visit Site</a>
   </div>
   <div class="project-right">
-    <p class="project-desc">Built to visualize misinformation patterns on X, spotting <strong>fake news</strong> and <strong>engagement bait</strong> across topics and accounts. First step: making <strong>200,000+ Community Notes</strong> searchable and ranking accounts by how many they've received.</p>
+    <p class="project-desc">Helps X users know which accounts to trust by surfacing <strong>fake news</strong> and <strong>engagement bait</strong> patterns. First step: making <strong>200,000+ Community Notes</strong> searchable and ranking accounts by how many they've received.</p>
     <div class="project-tags">
       <span class="tag" style="background:#fff8e1;border-color:#f5c842;color:#8a6d00; font-weight:600;">🤫 you're seeing this before it launches</span>
     </div>
