@@ -188,7 +188,7 @@ hide_title: true
     <p class="project-title">CommunityNoted</p>
     <span class="project-year">2026</span>
     <p class="project-tagline">Searchable leaderboard of X accounts with the most Community Notes</p>
-    <a class="project-link" href="https://communitynoted-production.up.railway.app/" target="_blank">↗ Visit Site</a>
+    <a class="project-link" href="https://communitynoted.com/" target="_blank">↗ Visit Site</a>
   </div>
   <div class="project-right">
     <p class="project-desc">Helps X users know which accounts to trust by surfacing <strong>fake news</strong> and <strong>engagement bait</strong> patterns. First step: making <strong>200,000+ Community Notes</strong> searchable and ranking accounts by how many they've received.</p>
