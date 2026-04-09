@@ -115,6 +115,26 @@ hide_title: true
   margin: 0 auto 32px auto;
   width: 60px;
 }
+
+@media (max-width: 640px) {
+  .project-card {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .project-left {
+    flex: none;
+    border-right: none;
+    border-bottom: 1px solid #ececec;
+    padding-right: 0;
+    margin-right: 0;
+    padding-bottom: 12px;
+  }
+
+  .section-title {
+    margin-top: 32px;
+  }
+}
 </style>
 
 <p class="section-title">Live Projects</p>
@@ -130,14 +150,11 @@ hide_title: true
     <a class="project-link" href="https://themarketcast.ai" target="_blank">↗ Visit Site</a>
   </div>
   <div class="project-right">
-    <p class="project-desc">Platform for parsing and analyzing <strong>SEC Form D filings</strong> daily, enabling investors to track private fundraising activity in real time. Attracts <strong>3,000+ organic weekly users</strong> via SEO/GEO optimization with real-time tracking of <strong>450,000+ filings</strong>. Enriched company data via <strong>Exa</strong>.</p>
+    <p class="project-desc">Built a <strong>Python/PostgreSQL</strong> platform parsing and analyzing <strong>450,000+ SEC Form D filings</strong> with <strong>sub-second query latency</strong> via Redis caching and query optimization, attracting <strong>3,000+ organic weekly users</strong>. Acquired by <strong><a href="https://www.smartkarma.com/home/" target="_blank">Smartkarma</a></strong>, a global investment research and analysis platform.</p>
     <div class="project-tags">
       <span class="tag">Python</span>
       <span class="tag">PostgreSQL</span>
       <span class="tag">Redis</span>
-      <span class="tag">PostHog</span>
-      <span class="tag">Exa</span>
-      <span class="tag">SEC EDGAR</span>
     </div>
   </div>
 </div>
@@ -150,16 +167,33 @@ hide_title: true
     <a class="project-link" href="https://stratalens.ai" target="_blank">↗ Visit Site</a>
   </div>
   <div class="project-right">
-    <p class="project-desc">Equity research platform for financial analysts. Built <strong>latency-optimized agentic RAG system</strong> using <strong>Qwen3-235B</strong> that synthesizes earnings calls, SEC filings, and real-time news via <strong>Tavily</strong> to answer complex financial queries. SEC filings sub-agent achieved <strong>91% accuracy on FinanceBench</strong> benchmark with <strong>LLM-as-judge evaluation</strong>. Built <strong>text-to-SQL stock screener</strong> using <strong>DuckDB</strong> for natural language financial queries.</p>
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 6px;">
+      <iframe src="https://www.youtube.com/embed/3KwY8c-m2nc?start=2" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
+    </div>
+    <p class="project-desc">Equity research platform for financial analysts. Designed <strong>multi-agent system</strong> across <strong>4 specialized sub-agents</strong> (SEC filings, earnings calls, news, stock screener) using <strong>Qwen3-235B</strong> with web search and text-to-SQL interfaces via <strong>Tavily</strong>, and agent observability via <strong>Logfire</strong>. SEC filings sub-agent achieved <strong>91% accuracy on FinanceBench</strong> via latency-optimized RAG over <strong>100,000+ vectorized filings in Qdrant</strong>, evaluated with an <strong>LLM-as-judge</strong> pipeline measuring relevance, accuracy, and citation quality. Built end-to-end with <strong>React/TypeScript</strong> frontend and <strong>FastAPI/PostgreSQL/S3</strong> backend.</p>
     <div class="project-tags">
       <span class="tag">Python</span>
       <span class="tag">FastAPI</span>
       <span class="tag">React</span>
       <span class="tag">TypeScript</span>
       <span class="tag">PostgreSQL</span>
-      <span class="tag">Redis</span>
-      <span class="tag">Langchain</span>
+      <span class="tag">Qdrant</span>
       <span class="tag">Logfire</span>
+    </div>
+  </div>
+</div>
+
+<div class="project-card">
+  <div class="project-left">
+    <p class="project-title">CommunityNoted</p>
+    <span class="project-year">2026</span>
+    <p class="project-tagline">Searchable leaderboard of X accounts with the most Community Notes</p>
+    <a class="project-link" href="https://communitynoted-production.up.railway.app/" target="_blank">↗ Visit Site</a>
+  </div>
+  <div class="project-right">
+    <p class="project-desc">Built to visualize misinformation patterns on X, spotting <strong>fake news</strong> and <strong>engagement bait</strong> across topics and accounts. First step: making <strong>200,000+ Community Notes</strong> searchable and ranking accounts by how many they've received.</p>
+    <div class="project-tags">
+      <span class="tag" style="background:#fff8e1;border-color:#f5c842;color:#8a6d00; font-weight:600;">🤫 you're seeing this before it launches</span>
     </div>
   </div>
 </div>
@@ -175,17 +209,16 @@ hide_title: true
   <div class="project-left">
     <p class="project-title">Web Search Engine</p>
     <span class="project-year">2026</span>
-    <p class="project-tagline">Distributed crawler over 10M+ pages with full-text search</p>
+    <p class="project-tagline">Distributed crawler over 30M+ pages at 350k pages/hour for &lt;$100/month</p>
   </div>
   <div class="project-right">
-    <p class="project-desc">Built <strong>fault-tolerant distributed web crawlers in Rust</strong> across <strong>5 instances</strong> with politeness policies and <strong>Redis</strong> queue coordination, storing <strong>10M+ tech-focused pages (200GB)</strong> in <strong>AWS S3</strong> with metadata in PostgreSQL, provisioned via <strong>Terraform</strong>. Built full-text search over the crawled corpus using <strong>Tantivy inverted index</strong> with <strong>BM25 ranking</strong> and a search UI for querying curated tech content.</p>
+    <p class="project-desc">Built <strong>fault-tolerant distributed web crawlers in Rust</strong> across <strong>10 instances</strong> with <strong>Redis</strong> queue coordination (lease management, domain locking, dead-letter queues, per-domain rate limiting), crawling <strong>350,000 pages/hour</strong> for <strong>&lt;$100/month</strong>. Built full-text search over <strong>30M+ pages (1 TB+)</strong> using <strong>Tantivy</strong> inverted index with <strong>BM25 ranking</strong> and <strong>ReAct agent-driven</strong> query decomposition and reasoning, with a <strong>React/TypeScript</strong> frontend.</p>
     <div class="project-tags">
       <span class="tag">Rust</span>
       <span class="tag">Redis</span>
-      <span class="tag">AWS S3</span>
-      <span class="tag">PostgreSQL</span>
       <span class="tag">Tantivy</span>
-      <span class="tag">Terraform</span>
+      <span class="tag">React</span>
+      <span class="tag">TypeScript</span>
     </div>
   </div>
 </div>
