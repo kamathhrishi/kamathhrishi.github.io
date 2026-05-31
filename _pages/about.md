@@ -15,7 +15,7 @@ permalink: /
 
 <div class="about-content" style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
 <p style="text-align: justify; line-height: 1.8; margin-bottom: 25px;">
-Hello, I'm Hrishikesh. Software engineer based out of San Francisco with experience building full-stack applications and AI agents. Most recently, I built <strong><a href="https://www.stratalens.ai" target="_blank">StrataLens AI</a></strong>, an equity research platform for financial analysts, conducting customer discovery with analysts at private equity and asset management firms. I'm now <strong>seeking engineering roles at high-growth companies</strong>.</p>
+Hello, I'm Hrishikesh. Software engineer at <strong><a href="https://button.xyz" target="_blank">Button Labs</a></strong> in San Francisco, with experience building full-stack applications and AI agents. Previously, I built <strong><a href="https://www.stratalens.ai" target="_blank">StrataLens AI</a></strong>, an equity research platform for financial analysts, conducting customer discovery with analysts at private equity and asset management firms.</p>
 
 <p style="text-align: justify; line-height: 1.8; margin-bottom: 25px;">
 I also built <strong><a href="https://themarketcast.ai" target="_blank">TheMarketCast.ai</a></strong> (peaked at <strong>3,000+ weekly users</strong>), now part of <strong><a href="https://www.smartkarma.com/home/" target="_blank">Smartkarma</a></strong>, a global investment research and analysis platform. On the side, I've been playing around with web data — building a search engine for fun and exploring misinformation patterns on X, documenting the journey on <a href="https://kamathhrishi.substack.com/" target="_blank"><strong>Substack</strong></a>.</p>
