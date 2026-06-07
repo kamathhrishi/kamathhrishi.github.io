@@ -13,6 +13,13 @@ I write about financial markets, tech, and AI on [Substack](https://kamathhrishi
 
 ---
 
+### [Why Building an Opinionated Web Crawler Excites Me](https://kamathhrishi.substack.com/p/why-building-a-opinionated-web-crawler)
+*June 2026*
+
+And where I want to take it. Indexing ~50M pages for under $150/month on a two-day crawl cycle, and the case for a niche, relevance-first search engine for tech and finance, knowledge graphs, and deep research.
+
+---
+
 ### [Building a Web Search Engine, Part 1: Crawling](https://kamathhrishi.substack.com/p/building-a-web-search-engine-1-crawling)
 *March 2026*
 
