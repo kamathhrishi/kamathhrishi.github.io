@@ -13,6 +13,20 @@ I write about financial markets, tech, and AI on [Substack](https://kamathhrishi
 
 ---
 
+### [Why My First Multibagger Didn't Make Me Much](https://kamathhrishi.substack.com/p/why-my-first-multibagger-didnt-make)
+*August 2026*
+
+Or why I regret not gambling bigger. My first successful stock pick returned 7x but barely moved my portfolio because I only allocated 2% to it — a lesson in why position sizing is everything when you have conviction backed by research.
+
+---
+
+### [The Retail Investor's Real Edge](https://button.xyz/blog/retail-investor-edge)
+*July 2026 · Button Blog*
+
+Written for the Button blog. Retail investors can't out-resource institutions, but they have structural advantages: access to small illiquid companies funds can't touch, freedom from career risk and regulatory constraints, and expertise in niches institutional analysts haven't covered yet.
+
+---
+
 ### [Why Building an Opinionated Web Crawler Excites Me](https://kamathhrishi.substack.com/p/why-building-a-opinionated-web-crawler)
 *June 2026*
 
