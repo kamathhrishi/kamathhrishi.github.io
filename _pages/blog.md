@@ -13,6 +13,13 @@ I write about financial markets, tech, and AI on [Substack](https://kamathhrishi
 
 ---
 
+### [Towards Proactive Agents](https://kamathhrishi.substack.com/p/towards-proactive-agents)
+*September 2026*
+
+Or getting agents to work without prompting them to. Exploring an emerging interaction pattern where agents initiate tasks on their own — and why it takes sufficient context, self-generated triggers, and restraint about when a discovery is worth interrupting the user.
+
+---
+
 ### [Why My First Multibagger Didn't Make Me Much](https://kamathhrishi.substack.com/p/why-my-first-multibagger-didnt-make)
 *August 2026*
 
