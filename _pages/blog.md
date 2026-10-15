@@ -13,6 +13,13 @@ I write about financial markets, tech, and AI on [Substack](https://kamathhrishi
 
 ---
 
+### [What I Learned Trying to Get an AI Agent to Build and Market Something](https://kamathhrishi.substack.com/p/what-i-learned-trying-to-get-an-ai)
+*October 2026*
+
+Letting an agent find an idea, build it, and find users on its own. Taste and agent identity were the real bottlenecks.
+
+---
+
 ### [Towards Proactive Agents](https://kamathhrishi.substack.com/p/towards-proactive-agents)
 *September 2026*
 
