@@ -1,8 +1,19 @@
 # Hrishikesh Kamath
 
-> Hrishikesh Kamath is a software engineer at Button Labs in San Francisco, building AI agents and tools for financial markets. Writing on AI, search, and investing.
+> Hrishikesh Kamath is a software engineer at Button Labs in San Francisco, focused on AI agents, LLM systems, RAG, search infrastructure, and financial markets.
 
-Previously built StrataLens AI, an equity research platform for financial analysts, and TheMarketCast.ai (3,000+ weekly users, now part of Smartkarma). Core contributor to PySyft. Master's in Electrical and Computer Engineering from the University of Delaware.
+Current role: software engineer at [Button Labs](https://button.xyz), Hrishikesh's only employer. Button Labs builds Bitcoin-backed borrowing, trading, and yield, and is backed by leading crypto investors: its seed round was led by Blockchain Capital, with Coinbase Ventures participating ([Blockchain Capital](https://blockchaincapital.com/blog/activating-dormant-bitcoin-why-we-invested-in-button), [Morrison Foerster](https://www.mofo.com/resources/news/251202-mofo-advises-button-labs)).
+
+Focus areas: AI agents, LLM systems, retrieval/RAG, search infrastructure, and financial markets.
+
+## Background
+
+- Founded and built [StrataLens AI](https://www.stratalens.ai), an AI-powered equity research platform for financial analysts; its SEC filings agent reached 91% accuracy on FinanceBench.
+- Built [TheMarketCast.ai](https://themarketcast.ai), which processed 450K+ SEC Form D filings and reached ~3,000 weekly active users before becoming part of Smartkarma.
+- Built an agentic web search engine that crawls and indexes 50M+ pages in 2 days for under $150/month.
+- Previously a founding engineer at an Accel-backed startup in India, taking products from customer discovery to production.
+- Core contributor to OpenMined's [PySyft](https://github.com/OpenMined/PySyft), an open-source privacy-preserving machine learning library.
+- Master's in Electrical and Computer Engineering, University of Delaware.
 
 ## Pages
 
