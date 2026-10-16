@@ -1,115 +1,80 @@
+require 'date'
 require 'feedjira'
 require 'httparty'
 require 'jekyll'
-require 'nokogiri'
-require 'time'
 
+# Builds site.data['blog_posts'] for the blog index: the curated entries in
+# _data/blog_posts.yml plus any newer posts from the RSS feeds listed under
+# `external_sources`. Posts are linked to, not copied, so the full text lives
+# only on the original site.
 module ExternalPosts
   class ExternalPostsGenerator < Jekyll::Generator
     safe true
     priority :high
 
+    USER_AGENT = 'Mozilla/5.0 (compatible; Jekyll blog index; +https://kamathhrishi.github.io)'.freeze
+
     def generate(site)
-      if site.config['external_sources'] != nil
-        site.config['external_sources'].each do |src|
-          puts "Fetching external posts from #{src['name']}:"
-          if src['rss_url']
-            fetch_from_rss(site, src)
-          elsif src['posts']
-            fetch_from_urls(site, src)
-          end
+      posts = (site.data['blog_posts'] || []).map { |post| normalize(post) }
+      known = posts.map { |post| canonical(post['url']) }
+
+      (site.config['external_sources'] || []).each do |src|
+        next unless src['rss_url']
+
+        fetch_from_rss(src).each do |post|
+          next if known.include?(canonical(post['url']))
+
+          Jekyll.logger.info 'External posts:', "added #{post['url']}"
+          posts << post
+          known << canonical(post['url'])
         end
       end
+
+      site.data['blog_posts'] = posts.sort_by { |post| post['date'] }.reverse
     end
 
-    def fetch_from_rss(site, src)
-      xml = HTTParty.get(src['rss_url']).body
-      return if xml.nil?
-      begin
-        feed = Feedjira.parse(xml)
-      rescue StandardError => e
-        puts "Error parsing RSS feed from #{src['rss_url']} - #{e.message}"
-        return
-      end
-      process_entries(site, src, feed.entries)
-    end
+    private
 
-    def process_entries(site, src, entries)
-      entries.each do |e|
-        puts "...fetching #{e.url}"
-        create_document(site, src['name'], e.url, {
-          title: e.title,
-          content: e.content,
-          summary: e.summary,
-          published: e.published
-        })
-      end
-    end
-
-    def create_document(site, source_name, url, content)
-      # check if title is composed only of whitespace or foreign characters
-      if content[:title].gsub(/[^\w]/, '').strip.empty?
-        # use the source name and last url segment as fallback
-        slug = "#{source_name.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')}-#{url.split('/').last}"
-      else
-        # parse title from the post or use the source name and last url segment as fallback
-        slug = content[:title].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
-        slug = "#{source_name.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')}-#{url.split('/').last}" if slug.empty?
+    def fetch_from_rss(src)
+      Jekyll.logger.info 'External posts:', "fetching #{src['name']} feed #{src['rss_url']}"
+      res = HTTParty.get(src['rss_url'], timeout: 20, headers: {
+        'User-Agent' => USER_AGENT,
+        'Accept' => 'application/rss+xml, application/xml;q=0.9, */*;q=0.8'
+      })
+      unless res.code == 200
+        raise "HTTP #{res.code} (#{res.headers['content-type']}): #{res.body.to_s[0, 200].gsub(/\s+/, ' ')}"
       end
 
-      path = site.in_source_dir("_posts/#{slug}.md")
-      doc = Jekyll::Document.new(
-        path, { :site => site, :collection => site.collections['posts'] }
-      )
-      doc.data['external_source'] = source_name
-      doc.data['title'] = content[:title]
-      doc.data['feed_content'] = content[:content]
-      doc.data['description'] = content[:summary]
-      doc.data['date'] = content[:published]
-      doc.data['redirect'] = url
-      doc.content = content[:content]
-      site.collections['posts'].docs << doc
-    end
-
-    def fetch_from_urls(site, src)
-      src['posts'].each do |post|
-        puts "...fetching #{post['url']}"
-        content = fetch_content_from_url(post['url'])
-        content[:published] = parse_published_date(post['published_date'])
-        create_document(site, src['name'], post['url'], content)
+      Feedjira.parse(res.body).entries.map do |e|
+        normalize(
+          'title' => e.title,
+          'url' => e.url,
+          'date' => e.published,
+          'description' => e.summary
+        )
       end
+    rescue StandardError => e
+      Jekyll.logger.warn 'External posts:', "could not read #{src['rss_url']}, " \
+        "listing only _data/blog_posts.yml. #{e.message}"
+      []
     end
 
-    def parse_published_date(published_date)
-      case published_date
-      when String
-        Time.parse(published_date).utc
-      when Date
-        published_date.to_time.utc
-      else
-        raise "Invalid date format for #{published_date}"
-      end
+    def normalize(post)
+      post = post.dup
+      post['title'] = post['title'].to_s.strip
+      post['description'] = post['description'].to_s.strip
+      post['date'] = to_date(post['date'])
+      post
     end
 
-    def fetch_content_from_url(url)
-      html = HTTParty.get(url).body
-      parsed_html = Nokogiri::HTML(html)
+    def to_date(value)
+      return value.to_date if value.respond_to?(:to_date)
 
-      title = parsed_html.at('head title')&.text.strip || ''
-      description = parsed_html.at('head meta[name="description"]')&.attr('content')
-      description ||= parsed_html.at('head meta[name="og:description"]')&.attr('content')
-      description ||= parsed_html.at('head meta[property="og:description"]')&.attr('content')
-
-      body_content = parsed_html.search('p').map { |e| e.text }
-      body_content = body_content.join() || ''
-
-      {
-        title: title,
-        content: body_content,
-        summary: description
-        # Note: The published date is now added in the fetch_from_urls method.
-      }
+      Date.parse(value.to_s)
     end
 
+    def canonical(url)
+      url.to_s.sub(/[?#].*\z/, '').chomp('/')
+    end
   end
 end

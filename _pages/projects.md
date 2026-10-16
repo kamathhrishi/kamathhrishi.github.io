@@ -1,6 +1,7 @@
 ---
 layout: page
 title: projects
+description: Projects by Hrishikesh Kamath, including TheMarketCast.ai, StrataLens AI, a distributed web search engine in Rust, and PySyft.
 permalink: /projects/
 nav: true
 nav_order: 1

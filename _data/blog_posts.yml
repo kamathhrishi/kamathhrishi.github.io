@@ -1,0 +1,63 @@
+# Posts listed on /blog/.
+#
+# New Substack posts are added automatically at build time from the RSS feed in
+# `external_sources` (_config.yml), using the Substack title and subtitle.
+# Add an entry here (matched by url) to override the title or description, or
+# to list a post published somewhere other than Substack.
+# This file is also the fallback when the feed can't be fetched.
+
+- title: What I Learned Trying to Get an AI Agent to Build and Market Something
+  url: https://kamathhrishi.substack.com/p/what-i-learned-trying-to-get-an-ai
+  date: 2026-10-03
+  description: Letting an agent find an idea, build it, and find users on its own. Taste and agent identity were the real bottlenecks.
+
+- title: Towards Proactive Agents
+  url: https://kamathhrishi.substack.com/p/towards-proactive-agents
+  date: 2026-09-13
+  description: How agents can initiate useful work on their own, and why that takes context, smart triggers, and restraint.
+
+- title: Why My First Multibagger Didn't Make Me Much
+  url: https://kamathhrishi.substack.com/p/why-my-first-multibagger-didnt-make
+  date: 2026-08-02
+  description: My first 7x stock pick barely moved my portfolio because I sized it at 2%. Position sizing is everything.
+
+- title: The Retail Investor's Real Edge
+  url: https://button.xyz/blog/retail-investor-edge
+  date: 2026-07-29
+  venue: Button Blog
+  description: Written for the Button blog. The structural advantages retail investors have that institutions can't use.
+
+- title: Why Building an Opinionated Web Crawler Excites Me
+  url: https://kamathhrishi.substack.com/p/why-building-a-opinionated-web-crawler
+  date: 2026-06-07
+  description: Indexing ~50M pages for under $150/month, and the case for a niche search engine for tech and finance.
+
+- title: "Building a Web Search Engine, Part 1: Crawling"
+  url: https://kamathhrishi.substack.com/p/building-a-web-search-engine-1-crawling
+  date: 2026-03-23
+  description: Building fault-tolerant distributed crawlers in Rust and storing 10M+ pages in AWS S3.
+
+- title: Building Agentic Retrieval for Financial Analysis
+  url: https://kamathhrishi.substack.com/p/building-agentic-rag-for-financial
+  date: 2026-01-22
+  description: Going from ~50% to 91% on FinanceBench with agentic RAG over SEC 10-K filings.
+
+- title: "When to RAG, When to Go Agentic: UX Patterns for AI Response Modes"
+  url: https://kamathhrishi.substack.com/p/when-to-rag-when-to-go-agentic-ux
+  date: 2025-10-07
+  description: When to use RAG for speed and when to go agentic for depth.
+
+- title: Why Alpha Lies in an Open Source Market Terminal
+  url: https://kamathhrishi.substack.com/p/why-alpha-lies-in-a-custom-version
+  date: 2025-08-31
+  description: How customizable dashboards and proprietary data create an edge in financial markets.
+
+- title: Why Your AI Search is Barely Scratching the Surface
+  url: https://kamathhrishi.substack.com/p/why-your-ai-search-is-barely-scratching
+  date: 2025-08-23
+  description: Why ChatGPT can't give you a complete spreadsheet of competitors, employees, or even jobs.
+
+- title: RAG is Never Dead
+  url: https://kamathhrishi.substack.com/p/rag-is-never-dead
+  date: 2025-08-15
+  description: Why long context windows don't kill retrieval.

@@ -2,6 +2,7 @@
 layout: page
 permalink: /portfolio/
 title: portfolio
+description: Domains owned by Hrishikesh Kamath, including themarketcast.ai, stratalens.ai, and noleaf.app.
 nav: true
 nav_order: 3
 hide_title: true

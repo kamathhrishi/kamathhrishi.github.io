@@ -1,0 +1,28 @@
+---
+permalink: /llms.txt
+layout: none
+---
+# Hrishikesh Kamath
+
+> {{ site.description | strip }}
+
+Previously built StrataLens AI, an equity research platform for financial analysts, and TheMarketCast.ai (3,000+ weekly users, now part of Smartkarma). Core contributor to PySyft. Master's in Electrical and Computer Engineering from the University of Delaware.
+
+## Pages
+
+- [About]({{ '/' | absolute_url }}): background and current work
+- [Projects]({{ '/projects/' | absolute_url }}): products and technical projects
+- [Blog]({{ '/blog/' | absolute_url }}): index of posts
+- [Portfolio]({{ '/portfolio/' | absolute_url }}): domains owned
+
+## Writing
+{% for post in site.data.blog_posts %}
+- [{{ post.title }}]({{ post.url }}) ({{ post.date | date: '%B %Y' }}){% if post.description != '' %}: {{ post.description }}{% endif %}
+{%- endfor %}
+
+## Elsewhere
+
+- [Substack](https://kamathhrishi.substack.com/)
+- [GitHub](https://github.com/kamathhrishi)
+- [LinkedIn](https://www.linkedin.com/in/kamathhrishi/)
+- [X / Twitter](https://twitter.com/kamathhrishi)

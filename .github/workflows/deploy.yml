@@ -7,6 +7,7 @@ on:
       - main
     paths:
       - "assets/**"
+      - "_plugins/**"
       - "_sass/**"
       - "_scripts/**"
       - "**.bib"
@@ -36,6 +37,7 @@ on:
       - main
     paths:
       - "assets/**"
+      - "_plugins/**"
       - "_sass/**"
       - "_scripts/**"
       - "**.bib"
@@ -60,6 +62,9 @@ on:
       - "!INSTALL.md"
       - "!README.md"
   workflow_dispatch:
+  schedule:
+    # rebuild daily so new Substack posts show up on /blog/
+    - cron: "0 7 * * *"
 
 permissions:
   contents: write

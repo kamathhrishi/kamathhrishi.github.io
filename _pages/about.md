@@ -2,6 +2,7 @@
 layout: page
 title:
 permalink: /
+hide_title: true
 ---
 <style>
 .about-content a {
@@ -38,3 +39,25 @@ Grew up playing Project IGI. Leveling up to play Project AGI.
 <a href="mailto:kamathhrishi@gmail.com">Email</a>
 </p>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Hrishikesh Kamath",
+    "url": "https://kamathhrishi.github.io/",
+    "jobTitle": "Software Engineer",
+    "worksFor": { "@type": "Organization", "name": "Button Labs", "url": "https://button.xyz" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Delaware" },
+    "address": { "@type": "PostalAddress", "addressLocality": "San Francisco" },
+    "sameAs": [
+      "https://www.linkedin.com/in/kamathhrishi/",
+      "https://github.com/kamathhrishi",
+      "https://twitter.com/kamathhrishi",
+      "https://kamathhrishi.substack.com/"
+    ]
+  }
+}
+</script>
