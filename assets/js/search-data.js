@@ -11,21 +11,21 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "",
+          description: "Projects by Hrishikesh Kamath, including TheMarketCast.ai, StrataLens AI, a distributed web search engine in Rust, and PySyft.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-blog",
           title: "blog",
-          description: "",
+          description: "Essays by Hrishikesh Kamath on AI agents, retrieval, web search, and investing, published on Substack.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
           },
         },{id: "nav-portfolio",
           title: "portfolio",
-          description: "",
+          description: "Domains owned by Hrishikesh Kamath, including themarketcast.ai, stratalens.ai, and noleaf.app.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/portfolio/";
