@@ -9,7 +9,7 @@ last_name: Kamath
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: >- # the ">-" symbol means to ignore newlines until "footer_text:"
-  Hrishikesh Kamath is a software engineer at Button Labs in San Francisco, building AI agents and tools for financial markets. Writing on AI, search, and investing.
+  Hrishikesh Kamath is a software engineer at Button Labs in San Francisco, focused on AI agents, LLM systems, RAG, search infrastructure, and financial markets.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

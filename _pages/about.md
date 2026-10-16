@@ -52,6 +52,7 @@ Grew up playing Project IGI. Leveling up to play Project AGI.
     "worksFor": { "@type": "Organization", "name": "Button Labs", "url": "https://button.xyz" },
     "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Delaware" },
     "address": { "@type": "PostalAddress", "addressLocality": "San Francisco" },
+    "knowsAbout": ["AI agents", "LLM systems", "Retrieval-augmented generation", "Search infrastructure", "Financial markets"],
     "sameAs": [
       "https://www.linkedin.com/in/kamathhrishi/",
       "https://github.com/kamathhrishi",
