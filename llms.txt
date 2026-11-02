@@ -36,4 +36,4 @@ Focus areas: AI agents, LLM systems, retrieval/RAG, search infrastructure, and f
 - [Substack](https://kamathhrishi.substack.com/)
 - [GitHub](https://github.com/kamathhrishi)
 - [LinkedIn](https://www.linkedin.com/in/kamathhrishi/)
-- [X / Twitter](https://twitter.com/kamathhrishi)
+- [X / Twitter](https://x.com/recursiveagi)

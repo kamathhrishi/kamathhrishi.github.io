@@ -35,7 +35,7 @@ Grew up playing Project IGI. Leveling up to play Project AGI.
 <p style="text-align: center; margin-top: 30px; display: flex; flex-wrap: wrap; justify-content: center; gap: 12px 20px;">
 <a href="https://www.linkedin.com/in/kamathhrishi/" target="_blank">LinkedIn</a>
 <a href="https://github.com/kamathhrishi" target="_blank">GitHub</a>
-<a href="https://twitter.com/kamathhrishi" target="_blank">Twitter</a>
+<a href="https://x.com/recursiveagi" target="_blank">Twitter</a>
 <a href="mailto:kamathhrishi@gmail.com">Email</a>
 </p>
 </div>
@@ -56,7 +56,7 @@ Grew up playing Project IGI. Leveling up to play Project AGI.
     "sameAs": [
       "https://www.linkedin.com/in/kamathhrishi/",
       "https://github.com/kamathhrishi",
-      "https://twitter.com/kamathhrishi",
+      "https://x.com/recursiveagi",
       "https://kamathhrishi.substack.com/"
     ]
   }

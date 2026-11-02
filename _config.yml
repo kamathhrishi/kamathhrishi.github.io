@@ -65,7 +65,7 @@ max_width: 930px
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
-x_username: kamathhrishi # used for the twitter:site and twitter:creator tags
+x_username: recursiveagi # used for the twitter:site and twitter:creator tags
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
