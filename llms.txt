@@ -8,8 +8,8 @@ Focus areas: AI agents, LLM systems, retrieval/RAG, search infrastructure, and f
 
 ## Background
 
-- Tried founding his own startup, [StrataLens AI](https://www.stratalens.ai), a platform for public market equity research.
-- Built [TheMarketCast.ai](https://themarketcast.ai), which processed 450K+ SEC Form D filings and reached ~3,000 weekly active users before becoming part of Smartkarma.
+- After 5–6 years of trading and investing in public markets, tried founding his own startup, [StrataLens AI](https://www.stratalens.ai), a platform for public market equity research.
+- Built [TheMarketCast.ai](https://themarketcast.ai), a tool for tracking private fundraising activity, which processed 450K+ SEC Form D filings and reached ~3,000 weekly active users before becoming part of Smartkarma.
 - Building his own web search engine: 500M pages indexed, kept fresh within 1–2 days, for under $250/month.
 - Previously a founding engineer at an Accel-backed startup in India, taking products from customer discovery to production.
 - Core contributor to OpenMined's [PySyft](https://github.com/OpenMined/PySyft), an open-source privacy-preserving machine learning library.
