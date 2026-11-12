@@ -16,16 +16,16 @@ hide_title: true
 
 <div class="about-content" style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
 <p style="text-align: justify; line-height: 1.8; margin-bottom: 25px;">
-Hello, I'm Hrishikesh. Software engineer at <strong><a href="https://button.xyz" target="_blank">Button Labs</a></strong> in San Francisco, with experience building full-stack applications and AI agents. Previously, I built <strong><a href="https://www.stratalens.ai" target="_blank">StrataLens AI</a></strong>, an equity research platform for financial analysts, conducting customer discovery with analysts at private equity and asset management firms.</p>
+Hello, I'm Hrishikesh. Software engineer at <strong><a href="https://button.xyz" target="_blank">Button Labs</a></strong> in San Francisco, with experience building full-stack applications and AI agents.</p>
 
 <p style="text-align: justify; line-height: 1.8; margin-bottom: 25px;">
-I also built <strong><a href="https://themarketcast.ai" target="_blank">TheMarketCast.ai</a></strong> (peaked at <strong>3,000+ weekly users</strong>), now part of <strong><a href="https://www.smartkarma.com/home/" target="_blank">Smartkarma</a></strong>, a global investment research and analysis platform. On the side, I've been playing around with web data — building a search engine for fun and exploring misinformation patterns on X, documenting the journey on <a href="https://kamathhrishi.substack.com/" target="_blank"><strong>Substack</strong></a>.</p>
-
-<p style="text-align: justify; line-height: 1.8; margin-bottom: 25px;">Previously, I was a core contributor to <a href="https://github.com/OpenMined/PySyft"><strong>PySyft</strong></a>, one of the most widely used privacy-preserving machine learning libraries, and founding engineer at an Accel-backed startup in India. I recently completed my Master's in Electrical and Computer Engineering at the <strong>University of Delaware</strong> with research in LLM code generation and hardware security.
-</p>
+I spent 5–6 years trading and investing in public markets, and that's what got me hooked on building tools for them. I tried founding my own startup, <strong><a href="https://www.stratalens.ai" target="_blank">StrataLens AI</a></strong>, a platform for public market equity research. I also built <strong><a href="https://themarketcast.ai" target="_blank">TheMarketCast.ai</a></strong>, which got to <strong>3,000+ weekly users</strong> and is now part of <strong><a href="https://www.smartkarma.com/home/" target="_blank">Smartkarma</a></strong>.</p>
 
 <p style="text-align: justify; line-height: 1.8; margin-bottom: 25px;">
-I was an active investor and trader in stock markets for 5–6 years, which sparked my interest in building tools for financial markets. I experimented with various styles such as value, growth, and a blend of technical and fundamental analysis.
+I love building with web data and poking around in it. Lately I've been building my own search engine: <strong>500M pages</strong>, kept fresh within <strong>1–2 days</strong>, for <strong>under $250 a month</strong>. I write about all of it on <a href="https://kamathhrishi.substack.com/" target="_blank"><strong>Substack</strong></a>.</p>
+
+<p style="text-align: justify; line-height: 1.8; margin-bottom: 25px;">
+Earlier on, I was a founding engineer at an Accel-backed startup in India and a core contributor to OpenMined's <a href="https://github.com/OpenMined/PySyft"><strong>PySyft</strong></a>, an open-source library for privacy-preserving ML. I also did my Master's in Electrical and Computer Engineering at the <strong>University of Delaware</strong>, where I worked on LLM code generation and hardware security.
 </p>
 
 <p style="text-align: center; font-style: italic; margin-bottom: 30px; color: #666;">

@@ -12,9 +12,9 @@ Focus areas: AI agents, LLM systems, retrieval/RAG, search infrastructure, and f
 
 ## Background
 
-- Founded and built [StrataLens AI](https://www.stratalens.ai), an AI-powered equity research platform for financial analysts; its SEC filings agent reached 91% accuracy on FinanceBench.
+- Tried founding his own startup, [StrataLens AI](https://www.stratalens.ai), a platform for public market equity research.
 - Built [TheMarketCast.ai](https://themarketcast.ai), which processed 450K+ SEC Form D filings and reached ~3,000 weekly active users before becoming part of Smartkarma.
-- Built an agentic web search engine that crawls and indexes 50M+ pages in 2 days for under $150/month.
+- Building his own web search engine: 500M pages indexed, kept fresh within 1–2 days, for under $250/month.
 - Previously a founding engineer at an Accel-backed startup in India, taking products from customer discovery to production.
 - Core contributor to OpenMined's [PySyft](https://github.com/OpenMined/PySyft), an open-source privacy-preserving machine learning library.
 - Master's in Electrical and Computer Engineering, University of Delaware.
