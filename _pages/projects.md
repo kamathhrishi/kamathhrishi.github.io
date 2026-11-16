@@ -70,9 +70,9 @@ nav_order: 1
   <article class="project">
     <div class="project-head">
       <h3 class="project-name"><span class="dot dot-markets" aria-hidden="true"></span>Financial podcast platform</h3>
-      <span class="project-year">2025</span>
+      <span class="project-year">Dec 2024–Jan 2025</span>
     </div>
-    <p class="project-desc">Personalized podcasts about the stocks in your portfolio, generated on demand with Whisper and GPT-4o and streamed over WebSockets. 50+ people used it in early beta.</p>
+    <p class="project-desc">I built an app that made a personalized podcast about the stocks in your portfolio. It gave me a feel for how hard consumer AI is before I pivoted to building a research platform.</p>
     <p class="project-tags">Python · Celery · React · WebSocket · AWS</p>
   </article>
 </section>
