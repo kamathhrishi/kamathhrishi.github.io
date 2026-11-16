@@ -76,7 +76,8 @@ h3 {
 }
 
 .page {
-  max-width: 640px;
+  /* 800px of content plus 24px padding on each side */
+  max-width: 848px;
   margin: 0 auto;
   padding: 56px 24px 48px;
 }
