@@ -329,11 +329,6 @@ h3 {
   margin-top: 10px;
 }
 
-.project-desc code {
-  font-family: var(--mono);
-  font-size: 0.85em;
-}
-
 .project-note {
   margin: 2px 0 0;
   font-size: 13px;

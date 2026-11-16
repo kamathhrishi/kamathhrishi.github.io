@@ -38,8 +38,7 @@ nav_order: 1
       <h3 class="project-name"><span class="dot dot-markets" aria-hidden="true"></span><a href="https://github.com/kamathhrishi/finance-agent" target="_blank" rel="noopener">StrataLens AI</a></h3>
       <span class="project-year">2025–2026</span>
     </div>
-    <p class="project-desc">My attempt at a startup: an AI research assistant for public market investors that answers questions from company filings, earnings calls and news.</p>
-    <p class="project-desc">It covered 500+ tech companies, with three years of earnings calls and 100,000+ SEC filings. The first version was a multi-agent RAG system whose filings agent scored 91% on FinanceBench. I later rebuilt it to run entirely on filesystem operations like <code>ls</code>, <code>grep</code> and <code>read</code>, since LLMs have gotten much better at agentic retrieval over files, though vector databases still have their place. It's no longer live, and I've open-sourced the code.</p>
+    <p class="project-desc">My attempt at a startup: an AI research assistant for public market investors that answered questions from company filings, earnings calls and news across 500+ tech companies. It started as a multi-agent RAG system that scored 91% on FinanceBench, and I later rebuilt it around filesystem tools as LLMs got better at agentic retrieval, though vector databases still have their place. It's no longer live, and I've open-sourced the code.</p>
     <p class="project-tags">Python · FastAPI · React</p>
     <div class="project-video">
       <iframe src="https://www.youtube.com/embed/3KwY8c-m2nc?start=2" title="StrataLens AI demo" loading="lazy" allowfullscreen></iframe>
