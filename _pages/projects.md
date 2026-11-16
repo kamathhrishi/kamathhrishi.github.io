@@ -24,9 +24,8 @@ nav_order: 1
       <h3 class="project-name"><span class="dot dot-web" aria-hidden="true"></span>Distributed web crawler and search engine</h3>
       <span class="project-year">2026</span>
     </div>
-    <p class="project-desc">My own web crawler and search engine, built from scratch. The index now covers 500M+ pages, stays fresh within <span class="nowrap">1–2 days</span> and runs for under $250 a month. Instead of a list of links, a query returns answers, closer to a spreadsheet of everything you asked for.</p>
-    <p class="project-desc">Crawlers written in Rust run across a fleet of cheap cloud machines, with Redis as the coordination layer: URL dedupe, leases so a crashed worker's jobs get picked up again, per-domain locks and rate limits shared across every machine, and a dead-letter queue for failures. Pages are stored as markdown, and recrawls skip unchanged pages using content hashes and ETags. Search runs on a distributed full-text index of the crawled pages, ranked with BM25, with an agent that breaks a question down into searches.</p>
-    <p class="project-tags">Rust · Redis · Tantivy · PostgreSQL · S3</p>
+    <p class="project-desc">My own web crawler and search engine, built from scratch. The index covers 500M+ pages, stays fresh within <span class="nowrap">1–2 days</span> and runs for under $250 a month. Rust crawlers run across a fleet of cheap machines, coordinated through Redis, and search runs on a distributed full-text index of the crawled pages.</p>
+    <p class="project-tags">Rust · Redis · Tantivy</p>
     <p class="project-links">
       <a href="https://kamathhrishi.substack.com/p/building-a-web-search-engine-1-crawling" target="_blank" rel="noopener">Part 1: Crawling →</a>
       <a href="https://kamathhrishi.substack.com/p/why-building-a-opinionated-web-crawler" target="_blank" rel="noopener">Why an opinionated crawler →</a>
@@ -39,8 +38,8 @@ nav_order: 1
       <h3 class="project-name"><span class="dot dot-markets" aria-hidden="true"></span><a href="https://github.com/kamathhrishi/finance-agent" target="_blank" rel="noopener">StrataLens AI</a></h3>
       <span class="project-year">2025–2026</span>
     </div>
-    <p class="project-desc">My attempt at a startup: an equity research agent for public markets. It covered 500+ tech companies with three years of earnings calls and 100,000+ SEC filings. The first version was a multi-agent RAG system with sub-agents for filings, earnings calls, news and stock screening, and its filings agent scored 91% on FinanceBench.</p>
-    <p class="project-desc">I later rebuilt it as a single agent that works like an analyst at a terminal: it uses <code>ls</code>, <code>grep</code> and <code>read</code> on filings stored as markdown, with no vector database, and cites the exact line behind every number. The platform is no longer live, and I've open-sourced the code.</p>
+    <p class="project-desc">My attempt at a startup: an AI research assistant for public market investors that answers questions from company filings, earnings calls and news.</p>
+    <p class="project-desc">It covered 500+ tech companies, with three years of earnings calls and 100,000+ SEC filings. The first version was a multi-agent RAG system whose filings agent scored 91% on FinanceBench. I later rebuilt it to run entirely on filesystem operations like <code>ls</code>, <code>grep</code> and <code>read</code>, since LLMs have gotten much better at agentic retrieval over files, though vector databases still have their place. It's no longer live, and I've open-sourced the code.</p>
     <p class="project-tags">Python · FastAPI · React</p>
     <div class="project-video">
       <iframe src="https://www.youtube.com/embed/3KwY8c-m2nc?start=2" title="StrataLens AI demo" loading="lazy" allowfullscreen></iframe>
