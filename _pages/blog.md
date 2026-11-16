@@ -1,26 +1,39 @@
 ---
-layout: page
+layout: paper
 permalink: /blog/
 title: blog
 description: Essays by Hrishikesh Kamath on AI agents, retrieval, web search, and investing, published on Substack.
 nav: true
 nav_order: 2
-hide_title: true
 ---
 
-## Writing on Tech, AI & Markets
+<h1 class="page-title">Writing on Tech, AI &amp; Markets</h1>
+<p class="page-intro">I write about financial markets, tech, and AI on <a href="https://kamathhrishi.substack.com" target="_blank" rel="noopener">Substack</a>. Here are my recent posts:</p>
 
-I write about financial markets, tech, and AI on [Substack](https://kamathhrishi.substack.com). Here are my recent posts:
+<section class="section" aria-labelledby="posts">
+  <div class="section-head">
+    <h2 class="section-title" id="posts">Posts</h2>
+    <p class="legend">
+      <span><span class="dot dot-ai" aria-hidden="true"></span>AI</span>
+      <span><span class="dot dot-markets" aria-hidden="true"></span>Markets</span>
+      <span><span class="dot dot-web" aria-hidden="true"></span>Web data</span>
+    </p>
+  </div>
+  <ul class="post-list">
+    {% for post in site.data.blog_posts %}
+      <li class="post">
+        <span class="post-date">{{ post.date | date: '%Y · %m' }}</span>
+        <span class="dot {% if post.topic %}dot-{{ post.topic }}{% else %}dot-none{% endif %}" aria-hidden="true"></span>
+        <div class="post-body">
+          <a class="post-title" href="{{ post.url }}" target="_blank" rel="noopener">{{ post.title }}</a>
+          {%- if post.venue %}<span class="post-venue">{{ post.venue }}</span>{% endif %}
+          {% if post.description != '' %}
+            <p class="post-desc">{{ post.description | strip_html }}</p>
+          {% endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
 
----
-
-{% for post in site.data.blog_posts %}
-### [{{ post.title }}]({{ post.url }})
-*{{ post.date | date: '%B %Y' }}{% if post.venue %} · {{ post.venue }}{% endif %}*
-
-{{ post.description }}
-
----
-{% endfor %}
-
-**Subscribe on [Substack](https://kamathhrishi.substack.com) for more posts on software engineering, AI, and financial markets.**
+<p class="page-outro">Subscribe on <a href="https://kamathhrishi.substack.com" target="_blank" rel="noopener">Substack</a> for more posts on software engineering, AI, and financial markets.</p>

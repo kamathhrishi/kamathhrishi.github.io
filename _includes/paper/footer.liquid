@@ -1,0 +1,27 @@
+{% assign socials = site.data.socials %}
+<footer class="site-footer">
+  <nav class="footer-links" aria-label="Elsewhere">
+    {% if socials.linkedin_username %}
+      <a href="https://www.linkedin.com/in/{{ socials.linkedin_username }}/" target="_blank" rel="noopener me">LinkedIn</a>
+    {% endif %}
+    {% if socials.github_username %}
+      <a href="https://github.com/{{ socials.github_username }}" target="_blank" rel="noopener me">GitHub</a>
+    {% endif %}
+    {% if socials.x_username %}
+      <a href="https://x.com/{{ socials.x_username }}" target="_blank" rel="noopener me">X</a>
+    {% endif %}
+    {% for src in site.external_sources %}
+      {% if src.rss_url %}
+        <a href="{{ src.rss_url | remove: '/feed' }}/" target="_blank" rel="noopener me">{{ src.name }}</a>
+      {% endif %}
+    {% endfor %}
+    {% if socials.email %}
+      <a href="mailto:{{ socials.email }}">Email</a>
+    {% endif %}
+  </nav>
+  <p class="copyright">
+    &copy; {{ site.time | date: '%Y' }}
+    {{ site.first_name }}
+    {{ site.last_name }}
+  </p>
+</footer>

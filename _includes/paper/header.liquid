@@ -1,0 +1,32 @@
+<header class="site-header">
+  <a
+    class="site-name"
+    href="{{ '/' | relative_url }}"
+    {% if page.url == '/' %}
+      aria-current="page"
+    {% endif %}
+  >
+    <span class="dots" aria-hidden="true">
+      <span class="dot dot-ai"></span>
+      <span class="dot dot-markets"></span>
+      <span class="dot dot-web"></span>
+    </span>
+    {{ site.first_name }}
+    {{ site.last_name }}
+  </a>
+  <nav class="site-nav" aria-label="Main">
+    {% assign sorted_pages = site.pages | sort: 'nav_order' %}
+    {% for p in sorted_pages %}
+      {% if p.nav %}
+        <a
+          href="{{ p.url | relative_url }}"
+          {% if page.url == p.url %}
+            class="is-current" aria-current="page"
+          {% endif %}
+        >
+          {{- p.title | capitalize -}}
+        </a>
+      {% endif %}
+    {% endfor %}
+  </nav>
+</header>
