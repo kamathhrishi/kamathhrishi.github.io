@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: projects
-description: Projects by Hrishikesh Kamath, including TheMarketCast.ai, StrataLens AI, a distributed web search engine in Rust, and PySyft.
+description: Projects by Hrishikesh Kamath, including TheMarketCast.ai, StrataLens AI, a distributed web crawler and search engine, and PySyft.
 permalink: /projects/
 nav: true
 nav_order: 1
@@ -16,54 +16,48 @@ nav_order: 1
   </p>
 </div>
 
-<section class="section" aria-labelledby="live-projects">
-  <h2 class="section-title" id="live-projects">Live projects</h2>
+<section class="section" aria-labelledby="built">
+  <h2 class="section-title" id="built">Things I've built</h2>
+
+  <article class="project">
+    <div class="project-head">
+      <h3 class="project-name"><span class="dot dot-web" aria-hidden="true"></span>Distributed web crawler and search engine</h3>
+      <span class="project-year">2026</span>
+    </div>
+    <p class="project-desc">My own web crawler and search engine, built from scratch. The index now covers 500M+ pages, stays fresh within <span class="nowrap">1–2 days</span> and runs for under $250 a month. Instead of a list of links, a query returns answers, closer to a spreadsheet of everything you asked for.</p>
+    <p class="project-desc">Crawlers written in Rust run across a fleet of cheap cloud machines, with Redis as the coordination layer: URL dedupe, leases so a crashed worker's jobs get picked up again, per-domain locks and rate limits shared across every machine, and a dead-letter queue for failures. Pages are stored as markdown, and recrawls skip unchanged pages using content hashes and ETags. Search runs on a distributed full-text index of the crawled pages, ranked with BM25, with an agent that breaks a question down into searches.</p>
+    <p class="project-tags">Rust · Redis · Tantivy · PostgreSQL · S3</p>
+    <p class="project-links">
+      <a href="https://kamathhrishi.substack.com/p/building-a-web-search-engine-1-crawling" target="_blank" rel="noopener">Part 1: Crawling →</a>
+      <a href="https://kamathhrishi.substack.com/p/why-building-a-opinionated-web-crawler" target="_blank" rel="noopener">Why an opinionated crawler →</a>
+    </p>
+    <p class="project-note">These posts cover earlier versions, from 10M to 50M pages. It has grown a lot since.</p>
+  </article>
+
+  <article class="project">
+    <div class="project-head">
+      <h3 class="project-name"><span class="dot dot-markets" aria-hidden="true"></span><a href="https://github.com/kamathhrishi/finance-agent" target="_blank" rel="noopener">StrataLens AI</a></h3>
+      <span class="project-year">2025–2026</span>
+    </div>
+    <p class="project-desc">My attempt at a startup: an equity research agent for public markets. It covered 500+ tech companies with three years of earnings calls and 100,000+ SEC filings. The first version was a multi-agent RAG system with sub-agents for filings, earnings calls, news and stock screening, and its filings agent scored 91% on FinanceBench.</p>
+    <p class="project-desc">I later rebuilt it as a single agent that works like an analyst at a terminal: it uses <code>ls</code>, <code>grep</code> and <code>read</code> on filings stored as markdown, with no vector database, and cites the exact line behind every number. The platform is no longer live, and I've open-sourced the code.</p>
+    <p class="project-tags">Python · FastAPI · React</p>
+    <div class="project-video">
+      <iframe src="https://www.youtube.com/embed/3KwY8c-m2nc?start=2" title="StrataLens AI demo" loading="lazy" allowfullscreen></iframe>
+    </div>
+    <p class="project-links">
+      <a href="https://github.com/kamathhrishi/finance-agent" target="_blank" rel="noopener">Code on GitHub →</a>
+      <a href="https://kamathhrishi.substack.com/p/building-agentic-rag-for-financial" target="_blank" rel="noopener">How I got to 91% →</a>
+    </p>
+  </article>
 
   <article class="project">
     <div class="project-head">
       <h3 class="project-name"><span class="dot dot-markets" aria-hidden="true"></span><a href="https://themarketcast.ai" target="_blank" rel="noopener">TheMarketCast.ai</a></h3>
       <span class="project-year">2025</span>
     </div>
-    <p class="project-tagline">3,000+ organic weekly users tracking private fundraising activity</p>
-    <p class="project-desc">Built a <strong>Python/PostgreSQL</strong> platform parsing and analyzing <strong>450,000+ SEC Form D filings</strong> with <strong>sub-second query latency</strong> via Redis caching and query optimization, attracting <strong>3,000+ organic weekly users</strong>. Acquired by <a href="https://www.smartkarma.com/home/" target="_blank" rel="noopener">Smartkarma</a>, a global investment research and analysis platform.</p>
+    <p class="project-desc">A tracker for private fundraising, built on 450,000+ SEC Form D filings with sub-second queries thanks to Redis caching. It grew to 3,000+ weekly users and is now part of <a href="https://www.smartkarma.com/home/" target="_blank" rel="noopener">Smartkarma</a>.</p>
     <p class="project-tags">Python · PostgreSQL · Redis</p>
-  </article>
-
-  <article class="project">
-    <div class="project-head">
-      <h3 class="project-name"><span class="dot dot-markets" aria-hidden="true"></span><a href="https://stratalens.ai" target="_blank" rel="noopener">StrataLens AI</a></h3>
-      <span class="project-year">2025</span>
-    </div>
-    <p class="project-tagline">Equity research agent with 91% accuracy on FinanceBench</p>
-    <div class="project-video">
-      <iframe src="https://www.youtube.com/embed/3KwY8c-m2nc?start=2" title="StrataLens AI demo" loading="lazy" allowfullscreen></iframe>
-    </div>
-    <p class="project-desc">Equity research platform for financial analysts. Designed <strong>multi-agent system</strong> across <strong>4 specialized sub-agents</strong> (SEC filings, earnings calls, news, stock screener) using <strong>Qwen3-235B</strong> with web search and text-to-SQL interfaces via <strong>Tavily</strong>, and agent observability via <strong>Logfire</strong>. SEC filings sub-agent achieved <strong>91% accuracy on FinanceBench</strong> via latency-optimized RAG over <strong>100,000+ vectorized filings in Qdrant</strong>, evaluated with an <strong>LLM-as-judge</strong> pipeline measuring relevance, accuracy, and citation quality. Built end-to-end with <strong>React/TypeScript</strong> frontend and <strong>FastAPI/PostgreSQL/S3</strong> backend.</p>
-    <p class="project-tags">Python · FastAPI · React · TypeScript · PostgreSQL · Qdrant · Logfire</p>
-  </article>
-</section>
-
-<section class="section" aria-labelledby="technical-projects">
-  <h2 class="section-title" id="technical-projects">Technical projects</h2>
-
-  <article class="project">
-    <div class="project-head">
-      <h3 class="project-name"><span class="dot dot-web" aria-hidden="true"></span>Web Search Engine</h3>
-      <span class="project-year">2026</span>
-    </div>
-    <p class="project-tagline">Distributed crawler over 30M+ pages at 350k pages/hour for &lt;$100/month</p>
-    <p class="project-desc">Built <strong>fault-tolerant distributed web crawlers in Rust</strong> across <strong>10 instances</strong> with <strong>Redis</strong> queue coordination (lease management, domain locking, dead-letter queues, per-domain rate limiting), crawling <strong>350,000 pages/hour</strong> for <strong>&lt;$100/month</strong>. Built full-text search over <strong>30M+ pages (1 TB+)</strong> using <strong>Tantivy</strong> inverted index with <strong>BM25 ranking</strong> and <strong>ReAct agent-driven</strong> query decomposition and reasoning, with a <strong>React/TypeScript</strong> frontend.</p>
-    <p class="project-tags">Rust · Redis · Tantivy · React · TypeScript</p>
-  </article>
-
-  <article class="project">
-    <div class="project-head">
-      <h3 class="project-name"><span class="dot dot-markets" aria-hidden="true"></span>Financial Podcast Platform</h3>
-      <span class="project-year">2025</span>
-    </div>
-    <p class="project-tagline">50+ early beta users, personalized portfolio podcasts on-demand</p>
-    <p class="project-desc">Real-time AI podcast platform using <strong>OpenAI Whisper</strong> and <strong>GPT-4o</strong> with <strong>Celery</strong> workers for async audio generation. <strong>React</strong> frontend with <strong>WebSocket streaming</strong> for live audio updates, backend deployed on <strong>AWS</strong>. Organically acquired <strong>50+ users in early beta</strong> with portfolio-based personalized podcast generation on-demand. Market data pipeline processing <strong>9,000 tickers every 20 minutes</strong> using <strong>SERP API</strong> and Redis caching.</p>
-    <p class="project-tags">Python · React · Celery · WebSocket · OpenAI Whisper · GPT-4o · AWS</p>
   </article>
 
   <article class="project">
@@ -71,9 +65,17 @@ nav_order: 1
       <h3 class="project-name"><span class="dot dot-ai" aria-hidden="true"></span><a href="https://github.com/kamathhrishi/sourcemapr" target="_blank" rel="noopener">SourceMapR</a></h3>
       <span class="project-year">2025</span>
     </div>
-    <p class="project-tagline">One line of code to add observability to your RAG pipelines</p>
-    <p class="project-desc">Drop-in observability library for <strong>RAG pipelines</strong>. Traces <strong>retrieval quality, latency, and relevance</strong> with minimal instrumentation, designed so engineers can monitor and debug RAG systems without changing their existing pipeline code. Provides observability from the <strong>source documents</strong> with citations to detect <strong>broken chunking, incorrect parsing</strong>, and other ingestion-level failures that are otherwise invisible at query time.</p>
-    <p class="project-tags">Python · RAG · Observability · LLM</p>
+    <p class="project-desc">One line of code to trace a RAG pipeline back to its source documents, so you can spot bad chunking or parsing.</p>
+    <p class="project-tags">Python · RAG · Observability</p>
+  </article>
+
+  <article class="project">
+    <div class="project-head">
+      <h3 class="project-name"><span class="dot dot-markets" aria-hidden="true"></span>Financial podcast platform</h3>
+      <span class="project-year">2025</span>
+    </div>
+    <p class="project-desc">Personalized podcasts about the stocks in your portfolio, generated on demand with Whisper and GPT-4o and streamed over WebSockets. 50+ people used it in early beta.</p>
+    <p class="project-tags">Python · Celery · React · WebSocket · AWS</p>
   </article>
 </section>
 
@@ -85,9 +87,8 @@ nav_order: 1
       <h3 class="project-name"><span class="dot dot-ai" aria-hidden="true"></span><a href="https://github.com/OpenMined/PySyft" target="_blank" rel="noopener">PySyft, OpenMined</a></h3>
       <span class="project-year">2019–2022</span>
     </div>
-    <p class="project-tagline">Core contributor to one of the most widely used privacy-preserving ML libraries</p>
-    <p class="project-desc">Implemented <strong>FALCON protocol</strong> operations, the <strong>first Python implementation</strong> of an honest-majority maliciously secure framework for private deep learning. Planned the <strong>SyMPC library</strong> roadmap and performed code reviews for the secure multi-party computation library. Contributed to core privacy-preserving ML infrastructure using <strong>PyTorch</strong>, <strong>TensorFlow</strong>, and <strong>differential privacy</strong>.</p>
-    <p class="project-tags">Python · PyTorch · TensorFlow · SMPC · Differential Privacy</p>
+    <p class="project-desc">Core contributor to OpenMined's library for privacy-preserving ML. I implemented operations for FALCON, a secure multi-party computation protocol for private deep learning, its first implementation in Python.</p>
+    <p class="project-tags">Python · PyTorch · SMPC · Differential Privacy</p>
   </article>
 
   <article class="project">
@@ -95,8 +96,7 @@ nav_order: 1
       <h3 class="project-name"><span class="dot dot-ai" aria-hidden="true"></span><a href="https://github.com/kamathhrishi/GreyNSights" target="_blank" rel="noopener">GreyNSights</a></h3>
       <span class="project-year">2021</span>
     </div>
-    <p class="project-tagline">Privacy-preserving data analysis framework for Pandas</p>
-    <p class="project-desc">Framework for <strong>privacy-preserving data analysis</strong> using <strong>Pandas</strong> with a pointer-based architecture for flexible EDA on private data without direct access. Implements <strong>differential privacy</strong> for individual row protection and <strong>federated analytics</strong> using secure multi-party computation.</p>
+    <p class="project-desc">Privacy-preserving data analysis for Pandas, using differential privacy and secure multi-party computation.</p>
     <p class="project-tags">Python · Pandas · Differential Privacy · SMPC</p>
   </article>
 </section>
