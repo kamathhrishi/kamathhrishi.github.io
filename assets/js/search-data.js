@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "Projects by Hrishikesh Kamath, including TheMarketCast.ai, StrataLens AI, a distributed web search engine in Rust, and PySyft.",
+          description: "Projects by Hrishikesh Kamath, including TheMarketCast.ai, StrataLens AI, a distributed web crawler and search engine, and PySyft.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
