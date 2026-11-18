@@ -12,23 +12,46 @@ nav_order: 3
 
 <ul class="domain-list">
   <li>
-    <a href="https://themarketcast.ai" target="_blank" rel="noopener"><span class="domain-name">The Market Cast</span><span class="domain-url">themarketcast.ai ↗</span></a>
+    <a href="https://alexwang.lol" target="_blank" rel="noopener"><span class="domain-name">Alex Wang</span><span class="domain-url">alexwang.lol ↗</span></a>
   </li>
   <li>
-    <a href="https://www.stratalens.ai" target="_blank" rel="noopener"><span class="domain-name">Strata Lens</span><span class="domain-url">www.stratalens.ai ↗</span></a>
+    <a href="https://arewehiringthesame.com" target="_blank" rel="noopener"
+      ><span class="domain-name">Are We Hiring the Same</span><span class="domain-url">arewehiringthesame.com ↗</span></a
+    >
+  </li>
+  <li>
+    <a href="https://asdisclosed.com" target="_blank" rel="noopener"><span class="domain-name">As Disclosed</span><span class="domain-url">asdisclosed.com ↗</span></a>
+  </li>
+  <li>
+    <a href="https://communitynoted.com" target="_blank" rel="noopener"
+      ><span class="domain-name">Community Noted</span><span class="domain-url">communitynoted.com ↗</span></a
+    >
+  </li>
+  <li>
+    <a href="https://getopenings.com" target="_blank" rel="noopener"><span class="domain-name">Get Openings</span><span class="domain-url">getopenings.com ↗</span></a>
   </li>
   <li>
     <a href="https://noleaf.app" target="_blank" rel="noopener"><span class="domain-name">Noleaf</span><span class="domain-url">noleaf.app ↗</span></a>
   </li>
   <li>
-    <a href="https://communitynoted.com" target="_blank" rel="noopener"><span class="domain-name">Community Noted</span><span class="domain-url">communitynoted.com ↗</span></a>
+    <a href="https://stratalens.ai" target="_blank" rel="noopener"><span class="domain-name">Strata Lens</span><span class="domain-url">stratalens.ai ↗</span></a>
   </li>
   <li>
-    <a href="https://theunsloppable.com" target="_blank" rel="noopener"><span class="domain-name">The Unstoppable</span><span class="domain-url">theunsloppable.com ↗</span></a>
+    <a href="https://themarketcast.ai" target="_blank" rel="noopener"><span class="domain-name">The Market Cast</span><span class="domain-url">themarketcast.ai ↗</span></a>
   </li>
   <li>
-    <a href="https://asdisclosed.com" target="_blank" rel="noopener"><span class="domain-name">As Disclosed</span><span class="domain-url">asdisclosed.com ↗</span></a>
+    <a href="https://theunsloppable.com" target="_blank" rel="noopener"
+      ><span class="domain-name">The Unstoppable</span><span class="domain-url">theunsloppable.com ↗</span></a
+    >
+  </li>
+  <li>
+    <a href="https://unannouncedvc.com" target="_blank" rel="noopener"
+      ><span class="domain-name">Unannounced VC</span><span class="domain-url">unannouncedvc.com ↗</span></a
+    >
+  </li>
+  <li>
+    <a href="https://unusualdegen.com" target="_blank" rel="noopener"><span class="domain-name">Unusual Degen</span><span class="domain-url">unusualdegen.com ↗</span></a>
   </li>
 </ul>
 
-<p class="footnote">Diversification is owning six domains instead of one.</p>
+<p class="footnote">Diversification is owning eleven domains instead of one.</p>
