@@ -41,7 +41,7 @@ nav_order: 3
   </li>
   <li>
     <a href="https://theunsloppable.com" target="_blank" rel="noopener"
-      ><span class="domain-name">The Unstoppable</span><span class="domain-url">theunsloppable.com ↗</span></a
+      ><span class="domain-name">The Unsloppable</span><span class="domain-url">theunsloppable.com ↗</span></a
     >
   </li>
   <li>
