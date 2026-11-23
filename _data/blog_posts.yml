@@ -9,6 +9,18 @@
 # `topic` sets the colored dot next to a post: ai, markets or web.
 # Posts without one get an empty dot.
 
+- title: What 45,000+ Companies' Disclosures Reveal About the AI Stack
+  url: https://kamathhrishi.substack.com/p/i-analyzed-the-ai-stack-used-by-40000
+  date: 2026-11-22
+  topic: ai
+  description: Part 2 of the vendor study. Which AI model providers, infra and tools companies name, and how that changed over a month.
+
+- title: I Analyzed the Software Stack Used by 45,000+ Companies
+  url: https://kamathhrishi.substack.com/p/i-analyzed-the-software-stack-used
+  date: 2026-11-22
+  topic: web
+  description: Using my web crawl to read companies' public subprocessor lists, and what they show about the most-used and fastest-growing software vendors.
+
 - title: What I Learned Trying to Get an AI Agent to Build and Market Something
   url: https://kamathhrishi.substack.com/p/what-i-learned-trying-to-get-an-ai
   date: 2026-10-03

@@ -56,6 +56,10 @@ a:focus-visible {
   border-radius: 2px;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 h1,
 h2,
 h3 {
@@ -427,6 +431,47 @@ h3 {
   font-size: 14px;
   line-height: 1.55;
   color: var(--muted);
+}
+
+.pager {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 8px;
+  margin-top: 12px;
+  padding-top: 4px;
+  border-top: 1px solid var(--rule);
+  font-family: var(--mono);
+  font-size: 13px;
+}
+
+.pager a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  min-height: 44px;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.pager a:hover,
+.pager a.is-current {
+  color: var(--ink);
+}
+
+.pager a.is-current {
+  text-decoration: underline;
+  text-decoration-color: var(--ink);
+  text-underline-offset: 5px;
+}
+
+.pager-prev {
+  margin-right: 8px;
+}
+
+.pager-next {
+  margin-left: 8px;
 }
 
 /* Portfolio */
