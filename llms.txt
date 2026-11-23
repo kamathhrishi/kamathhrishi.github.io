@@ -24,6 +24,8 @@ Focus areas: AI agents, LLM systems, retrieval/RAG, search infrastructure, and f
 
 ## Writing
 
+- [What 45,000+ Companies' Disclosures Reveal About the AI Stack](https://kamathhrishi.substack.com/p/i-analyzed-the-ai-stack-used-by-40000) (November 2026): Part 2 of the vendor study. Which AI model providers, infra and tools companies name, and how that changed over a month.
+- [I Analyzed the Software Stack Used by 45,000+ Companies](https://kamathhrishi.substack.com/p/i-analyzed-the-software-stack-used) (November 2026): Using my web crawl to read companies' public subprocessor lists, and what they show about the most-used and fastest-growing software vendors.
 - [What I Learned Trying to Get an AI Agent to Build and Market Something](https://kamathhrishi.substack.com/p/what-i-learned-trying-to-get-an-ai) (October 2026): Letting an agent find an idea, build it, and find users on its own. Taste and agent identity were the real bottlenecks.
 - [Towards Proactive Agents](https://kamathhrishi.substack.com/p/towards-proactive-agents) (September 2026): How agents can initiate useful work on their own, and why that takes context, smart triggers, and restraint.
 - [Why My First Multibagger Didn't Make Me Much](https://kamathhrishi.substack.com/p/why-my-first-multibagger-didnt-make) (August 2026): My first 7x stock pick barely moved my portfolio because I sized it at 2%. Position sizing is everything.
